@@ -329,7 +329,7 @@ export default function App() {
     <div className="min-h-screen bg-[#070709] text-[#F0EDE6] flex flex-col">
       {/* Three-Zone Top Bar Contract */}
       <header className="border-b border-white/10 bg-[#070709]">
-        <div className="mx-auto flex max-w-[1360px] flex-wrap items-center justify-between gap-8 px-6 py-4">
+        <div className="mx-auto flex max-w-[1360px] flex-wrap items-center justify-between gap-x-8 gap-y-4 px-6 py-4">
           {/* Zone 1: Single-element Wordmark */}
           <a
             href="#start"
@@ -342,10 +342,10 @@ export default function App() {
             Smaragd és Hamu
           </a>
 
-          {/* Zone 2: Concise single-line navigation links */}
+          {/* Zone 2: Concise navigation links (wraps cleanly on narrow mobile screens) */}
           <nav
             aria-label="Fő navigáció"
-            className="flex items-center gap-6 overflow-x-auto text-sm font-medium"
+            className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium sm:gap-x-6"
           >
             {NAV_ITEMS.map((item) => {
               const isActive = activeView === item.id;
@@ -354,7 +354,7 @@ export default function App() {
                   key={item.id}
                   type="button"
                   onClick={() => setActiveView(item.id)}
-                  className={`relative py-1 transition-colors whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-red-500 ${
+                  className={`relative py-1.5 transition-colors whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-red-500 ${
                     isActive
                       ? 'text-red-400'
                       : 'text-zinc-400 hover:text-zinc-100'
@@ -364,7 +364,7 @@ export default function App() {
                   {isActive && (
                     <span
                       aria-hidden="true"
-                      className="absolute inset-x-0 -bottom-[17px] h-[2px] bg-red-600"
+                      className="absolute inset-x-0 bottom-0 h-[2px] bg-red-600 lg:-bottom-[15px]"
                     />
                   )}
                 </button>

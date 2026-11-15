@@ -206,7 +206,7 @@ export function StoryPlayer({
             {currentScene.title}
           </h1>
 
-          <div className="mt-6 space-y-5 border-t border-white/10 pt-6 text-[16.5px] leading-[1.78] tracking-[0.01em] text-[#E2DFD7]">
+          <div className="mt-6 space-y-5 border-t border-white/10 pt-6 text-justify hyphens-auto text-[16.5px] leading-[1.78] tracking-[0.01em] text-[#E2DFD7]">
             {paragraphs.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
