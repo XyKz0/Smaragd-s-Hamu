@@ -16,13 +16,25 @@ Interaktív, 1940-es évekbeli klasszikus noir detektívregény (gamebook) React
   - `1`–`4`: Választási lehetőség kiválasztása
   - `Backspace` vagy `←` (Balra nyíl): Visszalépés az előző döntési pontra
 - **Automatikus mentés:** Az aktuális pozíció, a látogatott fejezetek és az összegyűjtött nyomok automatikusan mentésre kerülnek a böngésző `localStorage` tárhelyére.
+- **Offline PWA mód:** Telepíthető telefonra és asztali gépre (Android Chrome, iOS Safari) — az első Wi-Fi-s betöltés és telepítés után mind a 100 optimalizált kép (~20 MB) helyben tárolódik, így mobilnet nélkül is játszható.
+
+---
+
+## Telepítés telefonra (Offline játék mobilnet nélkül)
+
+A játék beépített Service Worker segítségével az első megnyitáskor letölti a teljes csomagot (~21 MB: kód, szöveg és mind a 100 optimalizált fejezetkép), így telepítés után akár repülőgép üzemmódban, **0 MB mobilnet-fogyasztással** is játszható:
+
+1. Nyisd meg az élő oldalt a telefonodon **Wi-Fi-n**, és várj néhány másodpercet, amíg a háttérben betöltődik az offline gyorsítótár.
+2. **Android (Chrome):** Koppints a fejlécben megjelenő **Telepítés** gombra (vagy a böngésző menüjében az *Alkalmazás telepítése* pontra).
+3. **iPhone / iPad (Safari):** Koppints a fejlécben az **Offline mentés (iOS)** gombra, vagy a Safari eszköztárán a **Megosztás** → **Hozzáadás a főképernyőhöz** opcióra.
+4. Ezután a telefonod kezdőképernyőjéről saját ikonról indíthatod a játékot internetkapcsolat nélkül is.
 
 ---
 
 ## Technológiák
 
 - **Frontend:** React 19, TypeScript
-- **Build rendszer:** Vite 8
+- **Build rendszer:** Vite 8 + `vite-plugin-pwa` (Workbox offline gyorsítótár)
 - **Stílus:** Tailwind CSS v4
 - **Ikonok:** Lucide React
 - **Fejlesztés (Vibe coding):** Google AI Studio / Gemini segítségével készült (kódolás, történetépítés és a 100 egyedi jelenetkép generálása)
@@ -66,25 +78,32 @@ npm run preview
 ```text
 ├── .github/workflows/deploy.yml   # Automatikus GitHub Pages build és deploy
 ├── .npmrc                         # legacy-peer-deps=true beállítás az npm installhoz
-├── index.html                     # HTML belépési pont és betűtípusok
-├── vite.config.ts                 # Vite konfiguráció (build esetén relatív './' bázisútvonal)
+├── index.html                     # HTML belépési pont, PWA meta tagek és betűtípusok
+├── vite.config.ts                 # Vite + VitePWA konfiguráció (relatív './' útvonalakkal)
+├── public/                        # PWA ikonok (icon.svg, pwa-192x192.png, pwa-512x512.png, apple-touch-icon.png)
 └── src/
     ├── App.tsx                    # Fő alkalmazásállapot, navigáció és localStorage mentés
+    ├── main.tsx                   # Alkalmazásindítás és Service Worker regisztráció
     ├── types/
     │   └── gamebook.ts            # Scene, SceneChoice, EvidenceItem típusdefiníciók
+    ├── hooks/
+    │   ├── usePWAInstall.ts       # PWA telepítési prompt és iOS/standalone detektálás
+    │   └── useOnlineStatus.ts     # Offline/online kapcsolat figyelése
     ├── data/
     │   ├── scenes.json            # A 100 fejezet teljes szövege és elágazási gráfja
     │   └── evidence.json          # A 30 megszerezhető nyom katalógusa
     ├── assets/
     │   ├── sceneImages.ts         # Mind a 100 fejezet 1-az-1-hez statikus képhozzárendelése
-    │   └── images/                # A 100 egyedi, előre legenerált .jpg illusztráció
+    │   └── images/                # A 100 egyedi, előre optimalizált .jpg illusztráció (~20 MB)
     └── components/
         ├── StoryPlayer.tsx        # Olvasónézet, választógombok és billentyűparancsok
         ├── SceneImagePlate.tsx    # Jelenetkép-keret és fejezetszámozás
         ├── SceneMapView.tsx       # Felfedezett fejezetek térképe
         ├── EvidenceLogView.tsx    # Nyomozói napló és szűrés kategóriák szerint
         ├── GuideView.tsx          # Játékos útmutató és irányítás
-        └── ConfirmRestartModal.tsx# Megerősítő ablak új nyomozás indításához
+        ├── ConfirmRestartModal.tsx# Megerősítő ablak új nyomozás indításához
+        ├── PWAInstallButton.tsx   # Telefonos/asztali PWA telepítő gomb és iOS útmutató
+        └── OfflineIndicator.tsx   # Diszkrét offline állapotjelző hálózat nélkül
 ```
 
 ---

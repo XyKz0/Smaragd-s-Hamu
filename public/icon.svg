@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#070709"/>
+  <rect x="28" y="28" width="456" height="456" rx="72" fill="none" stroke="#27272A" stroke-width="4"/>
+  <!-- Stark crimson rain slash backdrop -->
+  <path d="M112 380 L368 124 L400 156 L144 412 Z" fill="#DC2626" opacity="0.22"/>
+  <!-- Noir fedora silhouette -->
+  <path d="M108 214 C150 202 362 202 404 214 C378 228 338 232 256 232 C174 232 134 228 108 214 Z" fill="#F5F2EB"/>
+  <path d="M168 206 L190 122 C196 108 216 106 256 116 C296 106 316 108 322 122 L344 206 Z" fill="#F5F2EB"/>
+  <rect x="174" y="188" width="164" height="14" rx="2" fill="#DC2626"/>
+  <!-- Emerald jewel focal splash -->
+  <polygon points="256,262 324,316 298,402 214,402 188,316" fill="#059669" stroke="#34D399" stroke-width="6" stroke-linejoin="round"/>
+  <polygon points="256,280 302,318 284,384 228,384 210,318" fill="#10B981"/>
+  <polygon points="256,280 302,318 256,342 210,318" fill="#6EE7B7" opacity="0.7"/>
+</svg>

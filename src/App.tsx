@@ -7,6 +7,8 @@ import { SceneMapView } from './components/SceneMapView';
 import { EvidenceLogView } from './components/EvidenceLogView';
 import { GuideView } from './components/GuideView';
 import { ConfirmRestartModal } from './components/ConfirmRestartModal';
+import { PWAInstallButton } from './components/PWAInstallButton';
+import { OfflineIndicator } from './components/OfflineIndicator';
 
 const SCENES = initialScenesData as Scene[];
 const EVIDENCE_CATALOG = evidenceCatalogData as EvidenceItem[];
@@ -370,8 +372,9 @@ export default function App() {
             })}
           </nav>
 
-          {/* Zone 3: 1 Primary Action */}
-          <div className="shrink-0">
+          {/* Zone 3: Primary Action & Install */}
+          <div className="flex items-center gap-2.5 shrink-0">
+            <PWAInstallButton />
             <button
               type="button"
               onClick={handleRequestRestart}
@@ -443,6 +446,8 @@ export default function App() {
         onCancel={handleCancelRestart}
         onConfirm={handleConfirmRestart}
       />
+
+      <OfflineIndicator />
     </div>
   );
 }
