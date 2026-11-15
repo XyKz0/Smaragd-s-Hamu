@@ -1,4 +1,4 @@
-# Smaragd és Hamu — Interaktív Sin City Noir Gamebook
+# Smaragd és Hamu — Interaktív Noir Gamebook
 
 Interaktív, 1940-es évekbeli klasszikus noir detektívregény (gamebook) React, TypeScript és Tailwind CSS alapokon. Egy eső áztatta nagyvárosi éjszakán vörös hajú idegen, egy zárható bőrtáska és egy eltűnt könyvelő ügyében kell döntéseket hoznod — minden választás új irányba viszi a nyomozást, vagy végzetes csapdába vezet.
 
