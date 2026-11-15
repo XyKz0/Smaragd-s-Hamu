@@ -1,0 +1,6 @@
+{
+  "name": "Krómszínű Eső — Cyber-Noir Gamebook",
+  "description": "Interaktív 1940-es évekbeli cyber-noir detektív gamebook keretrendszer és JSON jelenetstúdió.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

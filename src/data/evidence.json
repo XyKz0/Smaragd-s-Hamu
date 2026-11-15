@@ -1,0 +1,212 @@
+[
+  {
+    "id": "maeve_profile",
+    "title": "Maeve O'Hara — A smaragdzöld árnyék",
+    "category": "szemely",
+    "splashColor": "emerald",
+    "summary": "Természetes, mély rézvörös hajú nő smaragdzöld selyemruhában és vérvörös rúzzsal. Ismeri a nevemet, nála van az aktatáska, és úgy tűnik, minden frakció őt vadássza ma éjjel."
+  },
+  {
+    "id": "briefcase_double_lock",
+    "title": "Kétzáras fekete bőr aktatáska",
+    "category": "targy",
+    "splashColor": "amber",
+    "summary": "Nehéz, egyedi kovácsolású rézzárakkal védett bőr aktatáska. Sem a Szindikátus, sem Callahan rendőrei, sem Vance szenátor nem tudja kinyitni erőszak nélkül — mégis mindenki ölni képes érte."
+  },
+  {
+    "id": "matchbook_velvet",
+    "title": "Bársony Pince gyufásdoboz",
+    "category": "bizonyitek",
+    "splashColor": "red",
+    "summary": "Az irodai hamutartó mellett maradt. Belsejében egy elmosódott, kézzel írt telefonszám áll, amely a 4-es körzeti rendőrség hullaházi mellékére vezet."
+  },
+  {
+    "id": "brass_key_14",
+    "title": "14-es számú sárgaréz kulcs",
+    "category": "targy",
+    "splashColor": "amber",
+    "summary": "Maeve nyomta a tenyerembe menekülés közben a sikátorban. A fogazatába ütött szám a 14-es móló régi vámraktárának lakatjához tartozik."
+  },
+  {
+    "id": "bloody_ledger",
+    "title": "Vérfoltos bőrkötésű főkönyv",
+    "category": "bizonyitek",
+    "splashColor": "red",
+    "summary": "A csatornarács alól kihalászott könyvelés. A nedves lapokon három név és helyszín szerepel egymás mellett: Maeve O'Hara, Callahan kapitány és a 14-es móló."
+  },
+  {
+    "id": "crooked_cops_velvet",
+    "title": "Callahan emberei a Bársony Pincénél",
+    "category": "helyszin",
+    "splashColor": "amber",
+    "summary": "A 4-es körzet civil ruhás zsarui védelmi pénzt vesznek át a dzsesszklub kidobójától, miközben Maeve O'Hara éppen odalent várakozik."
+  },
+  {
+    "id": "courier_john_doe",
+    "title": "A folyóból kihúzott futár (#409)",
+    "category": "szemely",
+    "splashColor": "amber",
+    "summary": "Miller őrmester szerint egy elvágott acélbilinccsel a csuklóján találtak rá a folyóban — ő hozta eredetileg a táskát a városba. Callahan kapitány el akarja égetni a boncolási iratait."
+  },
+  {
+    "id": "precinct_4_badge",
+    "title": "Sárba taposott rendőrjelvény",
+    "category": "bizonyitek",
+    "splashColor": "red",
+    "summary": "A sikátori lövöldözésben lelőtt támadó kabátjából esett ki. Bizonyíték arra, hogy Callahan kapitány szolgálaton kívüli zsarui vadásznak az aktatáskára."
+  },
+  {
+    "id": "emerald_silk_scrap",
+    "title": "Tépett smaragdzöld selyemfoszlány",
+    "category": "bizonyitek",
+    "splashColor": "emerald",
+    "summary": "A 14-es mólónál meggyilkolt éjjeliőr kabátjának gomblyukába akadt. Vagy Maeve járt már itt ma este, vagy valaki nagyon gondosan próbálja rákenni a gyilkosságot."
+  },
+  {
+    "id": "senator_obsidian_order",
+    "title": "Vance szenátor és az Obszidián Hotel",
+    "category": "helyszin",
+    "splashColor": "amber",
+    "summary": "Kihallgatott rendőrségi alku szerint Vance szenátor az Obszidián Hotel tetőtéri lakosztályában várja a táskát napkelte előtt — és Maeve-re tűzparancsot adtak ki."
+  },
+  {
+    "id": "velvet_booth_rendezvous",
+    "title": "Maeve rejtett fegyvere a Bársony Pincében",
+    "category": "szemely",
+    "splashColor": "emerald",
+    "summary": "A sarokbokszban mosolyogva vár, de a jobb keze végig az asztallap alatt marad. Többet tud a 14-es raktárról és a futárról, mint amennyit elárult."
+  },
+  {
+    "id": "autopsy_dossier",
+    "title": "A #409-es futár boncolási iratai",
+    "category": "bizonyitek",
+    "splashColor": "red",
+    "summary": "Miller őrmester holtteste mellől megmentett mappa. Kiderül belőle, hogy a futár a Szindikátus és a szenátor közös számadójának bizalmasa volt."
+  },
+  {
+    "id": "silver_inner_key",
+    "title": "Vérrel borított ezüst kulcs",
+    "category": "targy",
+    "splashColor": "amber",
+    "summary": "A halott futár gyomrából kioperált apró ezüst kulcs — ez nyitja az aktatáska egyik belső rézzárát."
+  },
+  {
+    "id": "burned_seal_note",
+    "title": "Elszenesedett vágóhídi pecsét",
+    "category": "helyszin",
+    "splashColor": "amber",
+    "summary": "A hullaházi kemence hamujából kihalászott papírcafat: egy éjjeli 02:00-s találkozóra utal a régi Vágóhídnál és egy kínai negyedi zálogházra."
+  },
+  {
+    "id": "moretti_cufflink",
+    "title": "Vinnie Moretti arany mandzsettája",
+    "category": "szemely",
+    "splashColor": "red",
+    "summary": "A 14-es raktárban meggyilkolt vámos széke mellett találták. A Szindikátus könyörtelen alvezére személyesen vezette a vallatást."
+  },
+  {
+    "id": "pawnshop_ledger",
+    "title": "Az öreg Li zálogházi munkafüzete",
+    "category": "bizonyitek",
+    "splashColor": "emerald",
+    "summary": "A meggyilkolt kulcsmásoló titkos naplója: Maeve O'Hara és Vance szenátor titkára külön-külön rendeltek másolatot a táska kulcsáról. Mindketten átverték egymást."
+  },
+  {
+    "id": "maeve_double_agent",
+    "title": "Maeve kettős játszmája",
+    "category": "szemely",
+    "splashColor": "emerald",
+    "summary": "Maeve O'Hara volt a #409-es futár összekötője. A táskával akarja megvásárolni saját szabadságát Vance szenátortól — vagy elmenekülni a zsákmánnyal."
+  },
+  {
+    "id": "vance_blackmail_key",
+    "title": "A táska valódi tétje",
+    "category": "bizonyitek",
+    "splashColor": "amber",
+    "summary": "A rézzárak mögött nem arany van, hanem egy évtizednyi mocskos rendőrségi kifizetés, bírói kenőpénz és gyilkossági megbízás dokumentumai, amelyek romba dönthetnék a város elitjét."
+  },
+  {
+    "id": "senator_true_motive",
+    "title": "A hármas szövetség az Obszidiánban",
+    "category": "helyszin",
+    "splashColor": "red",
+    "summary": "Vance szenátor, Callahan kapitány és Vinnie Moretti ugyanannál az asztalnál ülnek a tetőtéren — ebben a városban a törvény és az alvilág ugyanazt a könyvelést használja."
+  },
+  {
+    "id": "maeve_wire_clue",
+    "title": "Drótozott asztalfiók hangszalagja",
+    "category": "bizonyitek",
+    "splashColor": "amber",
+    "summary": "Az irodai rejtett dróttekercs rögzítette Maeve telefonhívását az érkezése előtti percről: valakinek a „szálloda harmincadik emeletét” említette jelszóként."
+  },
+  {
+    "id": "eddie_syndicate_tip",
+    "title": "„Vak” Eddie figyelmeztetése",
+    "category": "szemely",
+    "splashColor": "amber",
+    "summary": "Az éjjeli újságos informátor szerint Moretti három fekete Packardot indított el a kikötő és a kínai negyed felé — és élve akarják elkapni a vörös hajú nőt hajnal előtt."
+  },
+  {
+    "id": "danny_ohara_photo",
+    "title": "Összegyűrt fénykép a tükörkeretben",
+    "category": "targy",
+    "splashColor": "emerald",
+    "summary": "A Bársony Pince öltözőjének tükre mögött talált régi fotó: Maeve O'Hara egy fiatal kikötői munkással, a hátoldalán „Danny, 1941” felirattal."
+  },
+  {
+    "id": "maeve_brother_truth",
+    "title": "Danny O'Hara és a testvérbosszú",
+    "category": "szemely",
+    "splashColor": "red",
+    "summary": "Maeve vallomása szerint a #409-es futár az öccse, Danny volt. Vance szenátor azért ölette meg, mert Danny másolatot készített a fekete könyvelésről a halála előtt."
+  },
+  {
+    "id": "shipping_manifest_409",
+    "title": "A 409-es éjszakai hajórakomány jegyzéke",
+    "category": "bizonyitek",
+    "splashColor": "amber",
+    "summary": "A kikötői vámhivatal asztaláról szerzett dokumentum: az aktatáska egy politikai védettségű diplomáciai ládában érkezett a keleti partról, Vance szenátor pecsétjével."
+  },
+  {
+    "id": "vance_pier_bribe",
+    "title": "Kikötői vámosok hallgatási pénze",
+    "category": "helyszin",
+    "splashColor": "red",
+    "summary": "A megfélemlített vámos bevallotta, hogy Callahan rendőrei havonta egyszer készpénzes borítékot hoznak minden éjjeli őrnek a 14-es mólón, hogy ne lássanak semmit."
+  },
+  {
+    "id": "crypt_key_tag",
+    "title": "Szent Júdás kripta rézcímkéje",
+    "category": "targy",
+    "splashColor": "red",
+    "summary": "A temetői sírásó által átadott ón- és rézcímke, amely a keleti fal melletti családi kriptát jelöli — Maeve itt rejtett el egy vésztartalék kulcskészletet."
+  },
+  {
+    "id": "emerald_dress_lining",
+    "title": "Rejtett pisztolytáska a zöld selyemben",
+    "category": "targy",
+    "splashColor": "emerald",
+    "summary": "A kínai negyedi varroda munkakönyve szerint Maeve smaragdzöld estélyi ruhájának bélésébe külön megerősített selyemzsebet varrtak egy gyöngyházmarkolatú .25-ös pisztolyhoz."
+  },
+  {
+    "id": "archive_1936_coverup",
+    "title": "Az 1936-os dokkmészárlás titkos aktája",
+    "category": "bizonyitek",
+    "splashColor": "red",
+    "summary": "A Városháza alagsorában talált, vörös pecsétes dosszié: tíz éve Vance és Callahan közösen tüntették el a szakszervezeti vezetők holttestét a folyóban, hogy Moretti átvehesse a dokkokat."
+  },
+  {
+    "id": "clara_press_card",
+    "title": "Clara Shaw éjszakai sajtóigazolványa",
+    "category": "szemely",
+    "splashColor": "amber",
+    "summary": "A City Ledger megvesztegethetetlen bűnügyi riportere, aki hajlandó akár a saját nyomdájában is lehozni a bizonyítékokat hajnal előtt, ha élve eljutnak hozzá az akták."
+  },
+  {
+    "id": "hotel_guest_registry",
+    "title": "Az Obszidián Hotel titkos vendégkönyve",
+    "category": "helyszin",
+    "splashColor": "amber",
+    "summary": "A 29. emeleti biztonsági szobából elhozott névsor igazolja, hogy Vance szenátor, Callahan kapitány és Moretti két éve minden hónap tizenötödikén ugyanabban a penthouse-ban találkoznak."
+  }
+]

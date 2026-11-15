@@ -1,0 +1,1525 @@
+[
+  {
+    "id": "start",
+    "title": "ESŐ ÉS FÜST A NEGYEDIKEN",
+    "text": "Az ablakon túl a város úgy rothadt a novemberi felhőszakadásban, mint egy gazdátlan hulla a kikötő iszapjában. A reluxa lécei éles, fekete rácsot vágtak az íróasztalomra, mintha maga a bérház is figyelmeztetett volna: innen senki nem sétál ki tiszta kézzel. Három napja nem aludtam, a hamutartóban pedig már régen túlnőtt a csikkek hegye azon a határon, amit még érdemes számolni.\n\nAz asztal sarkán a régi tárcsás telefon néma volt, mellette a rövid csövű .38-as revolverem és két ujjnyi olcsó, borostyánszínű bourbon pihent a pohár alján. A negyedik emeleti irodámba éjfél után csak kétféle ember téved be: akinek már nincs vesztenivalója, és aki azért jött, hogy elvegye az enyémet.\n\nAztán két zaj hasított bele egyszerre a dohányfüstös csendbe. A folyosó túloldaláról lassú, tűsarkú koppanás közeledett, majd három rövid, türelmetlen kopogás rázta meg a tejüveg ajtót. Ugyanabban a pillanatban odakintről, a hátsó sikátor mélyéről egy fekete, nyolchengeres Packard fojtott dorombolása és két becsapódó kocsiajtó tompa puffanása szűrődött fel az esőben.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of vibrant amber whiskey glow, heavy dramatic shadows, film noir, rainy 1940s city streets, gritty ink illustration. Smoky 1940s private detective office at night, Venetian blinds slicing stark black bars across a wooden desk, snub-nosed revolver, rotary telephone, overflowing ashtray, glowing amber glass while rain lashes the window.",
+    "choices": [
+      {
+        "text": "Kibiztosítod a .38-ast az asztalfiókban, és feltéped az iroda ajtaját a kopogtatónak.",
+        "nextScene": "door_visitor"
+      },
+      {
+        "text": "Eloltod a cigarettát a whiskey maradékában, és az ablakon át kimászol a rozsdás tűzlétrára.",
+        "nextScene": "fire_escape"
+      },
+      {
+        "text": "Hangtalanul a folyosói kémlelőnyíláshoz osonsz, hogy megnézd, ki áll a tejüveg túloldalán.",
+        "nextScene": "act1_hallway_peephole"
+      }
+    ]
+  },
+  {
+    "id": "act1_hallway_peephole",
+    "title": "A TEJÜVEG MÖGÖTT",
+    "text": "A deszkapadló halkan nyikkant a talpam alatt, de odakint az eső dobolása mindent elnyelt. A kis rézkémlelőn át egy pillanatra megláttam a folyosó gyér fényében álló látogatót: vizes, természetes ír rézvörös haja és smaragdzöld selyemruhája úgy világított a szürke lépcsőházban, mint egy jelzőtűz. A kezében láncos bőr aktatáskát szorongatott, és közben idegesen pillantott hátra a lépcsőforduló felé.\n\nAlig egy emelettel lejjebb azonban két széles vállú, kalapos férfi árnyéka nyúlt meg a vakolaton — egy lefűrészelt csövű puska csöve csillant meg a korlát mellett. A nő csapdába csalta magát, vagy pontosan tudta, kiket hozott a nyakamra.\n\nMég három másodpercem maradt, mielőtt a folyosón eldördül az első lövés, vagy a nő továbbáll.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair and emerald green dress through frosted office door glass, heavy dramatic shadows, film noir, 1940s hallway, gritty ink illustration. Detective peering through frosted door glass at a desperate femme fatale while armed shadows climb the stairs.",
+    "choices": [
+      {
+        "text": "Gyorsan elrántod a reteszt, és behúzod a nőt az irodába, mielőtt a lépcsőn lévők felérnek.",
+        "nextScene": "door_visitor"
+      },
+      {
+        "text": "Nem játszod el mások testőrét: felrántod a tetőnyílás létráját, és kiszöksz a zuhogó esőbe.",
+        "nextScene": "act1_rooftop_chase"
+      }
+    ]
+  },
+  {
+    "id": "act1_rooftop_chase",
+    "title": "ESŐVERTE TETŐGERINCEK",
+    "text": "A tetőn tomboló szél majdnem letépte rólam a ballonkabátot. A palatető csúszott, mint a megfagyott vér, alattam pedig négy emeletnyi sötét semmi tátongott a két bérház között. Hátrafelé már hallottam, ahogy odalent egy ajtó szilánkokra törik és valaki káromkodva rohan fel a vészlépcsőn.\n\nA szomszédos épület laposteteje hat lábnyira volt tőlem — elég közelinek tűnt ahhoz, hogy egy jó ugrással elérjem, de a vízelvezető csatorna rozsdás pereme bármikor leszakadhatott a súlyom alatt. A szemközti utcán közben egy ismerős smaragdzöld sziluett tűnt fel a kapualjban, miközben a hátsó udvarból két zseblámpa pásztázta a falakat.\n\nA hideg eső a szemembe csorgott. Vagy megkockáztatom a gyors, vakmerő ugrást a sötét gerincen át, vagy leereszkedem az ereszcsatornán a sikátor felé.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single distant splash of emerald green down in the dark street and amber neon reflections, heavy dramatic shadows, film noir, stormy 1940s city rooftops, gritty ink illustration. Trench-coated detective balancing on wet slate roof edge in pouring rain.",
+    "choices": [
+      {
+        "text": "Lendületből átveted magad a szomszédos ház tetejére, és az udvari lépcsőn követed a nőt.",
+        "nextScene": "alley_tail_maeve"
+      },
+      {
+        "text": "Rálépsz a rozsdás esőcsatorna peremére, hogy közelebbről lásd, merre szaladtak a fegyveresek.",
+        "nextScene": "act1_rooftop_slip"
+      }
+    ]
+  },
+  {
+    "id": "act1_rooftop_slip",
+    "title": "ZUHANÁS A NEGYEDIKRŐL",
+    "text": "A régi bádogcsatorna egyetlen éles sikollyal szakadt ki a téglafalból a jobb csizmám alatt. Megpróbáltam elkapni a kémény szélét, de a körmeim csak a nedves koromba martak bele.\n\nAz éjszaka hirtelen megfordult körülöttem — az esőcseppek felfelé hullottak, a borostyánszínű utcai lámpák vékony fénycsíkokká olvadtak össze. Mire a téglafal mellett elterülő szemetestárolók fedele csattanva összecsuklott alattam, az egész világ már csak egyetlen sötét, néma folt maradt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood on wet cobblestones below, heavy dramatic shadows, film noir, 1940s tenement rooftop, gritty ink illustration. Broken rain gutter tearing away from brick wall in storm.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "door_visitor",
+    "title": "SMARAGD ÉS RÉZVÖRÖS",
+    "text": "A tejüveg ajtó nyikorogva engedett, és a folyosó dohszagával együtt belépett valaki, aki egyetlen másodperc alatt értelmet adott az éjszakának. Körülötte az egész világ nyers fekete és fehér maradt — a koromfekete eső, a repedezett vakolat, a szürke füst —, kivéve őt. Természetes, rozsdás ír rézvörös haja vizes hullámokban omlott a vállára, testére tapadó smaragdzöld selyemruhája pedig úgy égett a félhomályban, mint egy tilos jelzés a pokol kapuján. A száján vérvörös rúzs fénylett.\n\nBal kezében egy vékony cigaretta parázslott, a jobbjában viszont egy nehéz, láncos fekete bőr aktatáskát tartott. Nem az a fajta táska volt, amiben ügyvédi aktákat hordanak; a két rézzár úgy nézett ki, mintha külön kovács készítette volna őket egy széfhez.\n\n— Jack Marlowe? — A hangja rekedt volt és hűvös, mint a hajnali jeges szél. — Húsz másodperce van eldönteni, hogy bezárja ezt az ajtót, vagy hagyja, hogy mindkettőnket kiterítsenek a szőnyegre. — A lépcsőház aljából nehéz, bakancsos léptek zaja indult meg felfelé.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on her natural rusty Irish auburn copper-red hair, emerald green dress, and striking red lipstick, heavy dramatic shadows, film noir, rainy 1940s city doorway, gritty ink illustration. Irresistible dangerous femme fatale standing in a detective office doorway holding a heavy dark leather briefcase, swirling cigarette smoke.",
+    "evidenceUnlocked": ["maeve_profile", "briefcase_double_lock"],
+    "choices": [
+      {
+        "text": "Beengeded, kulcsra zárod az ajtót, és megkérdezed, miért lohol a nyomában a fél alvilág.",
+        "nextScene": "office_bargain"
+      },
+      {
+        "text": "Szó nélkül leengeded a lábadat a rejtett asztal alatti drótmagnetofon kapcsolójára, miközben beszél.",
+        "nextScene": "act1_desk_drawer_trap"
+      },
+      {
+        "text": "Fegyvert szegezel rá, és követeled, hogy azonnal nyissa ki az aktatáskát az íróasztalodon.",
+        "nextScene": "office_inspect_case"
+      }
+    ]
+  },
+  {
+    "id": "act1_desk_drawer_trap",
+    "title": "REJTETT FÉNYES LÁNC",
+    "text": "A bal sarkammal finoman lenyomtam a küszöb alatti rézkapcsolót. Az íróasztal alsó fiókjában hangtalanul forogni kezdett a vékony acéldrót-orsó, amely minden szót rögzített, ami ebben a szobában elhangzik. Még egy olyan nő is elszólhatja magát, aki ilyen gondosan választja meg a ruháját a vérfoltokhoz.\n\nMaeve megállt a szoba közepén, és ujjai végigsimítottak a láncos táska fémcsatján. Egy pillanatra elhallgatott, mintha megérezte volna a fiók alól jövő halk zümmögést — vagy csak kiszámolta, mennyit érek neki élve.\n\n— Ha üzletet akarunk kötni, Marlowe — suttogta —, az asztala alatt ne matasson. Tegye fel a kezét az asztalra, vagy máris kiszámolhatom, hány golyó fér a gyöngyház markolatú táramba.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on emerald green dress, copper-red hair, red lipstick, and an amber vacuum tube glow inside a half-open desk drawer, heavy dramatic shadows, film noir, 1940s detective office, gritty ink illustration. Tense standoff over a hidden wire recorder.",
+    "evidenceUnlocked": ["maeve_wire_clue"],
+    "choices": [
+      {
+        "text": "Nyugodtan az asztalra teszed a kezed, és hallgatod az ajánlatát, mintha mi sem történt volna.",
+        "nextScene": "office_bargain"
+      },
+      {
+        "text": "Hirtelen a fiókban lapuló tartalék .38-asért kapsz, hogy elvedd tőle a táskát.",
+        "nextScene": "act1_maeve_disarms"
+      }
+    ]
+  },
+  {
+    "id": "act1_maeve_disarms",
+    "title": "GYÖNGYHÁZ ÉS HIDEG ACÉL",
+    "text": "A mozdulatom fél másodperccel lassabb volt a szükségesnél — ebben a városban pedig fél másodperc pontosan egy koporsó ára. A smaragdzöld selyemredőből egyetlen villanással előkerült a kis gyöngyházmarkolatú .25-ös pisztoly.\n\nA kis kaliberű fegyver alig pukkant nagyobbat egy pezsgősdugónál, de két hüvelykről a mellkas közepén pontosan ugyanazt a véget hozta, mint egy sörétes puska. Ahogy a székemmel együtt hanyatt vágódtam a padlóra, még láttam, ahogy Maeve egy zsebkendővel letörli a kilincset, és kilép a folyosóra.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair, emerald green dress, red lipstick, and crimson blood on white shirt, heavy dramatic shadows, film noir, 1940s office, gritty ink illustration. Femme fatale firing a small pearl-handled pistol at close range.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "fire_escape",
+    "title": "HIDEG VAS A SÖTÉTBEN",
+    "text": "A tűzlétra vasa jéghideg volt és csúszós, mintha olajjal kenték volna be a pokol hátsó lépcsőjét. A párkányhoz lapulva lenéztem a sikátorba: egyetlen görbe utcai lámpa vetett csak beteg, borostyánsárga fénytócsát a macskakőre és a csatornafedőből felszálló gőzre.\n\nLent, a fekete Packard mellett két széles vállú, kalapos alak állt. Az egyikük idegesen a negyedik emeleti ablakom felé pislogott, kezében lefűrészelt csövű sörétes puskával; a másik a rozsdás csatornafedő lakatjával bajlódott, miközben egy bőrkötésű könyvet szorongatott a hóna alatt.\n\nEkkor az épület oldalsó gazdasági bejárata résnyire nyílt: egy pillanatra kivillant belőle egy smaragdzöld ruha szegélye, egy vörös hajzuhatag és egy fekete aktatáska. A nő nem várt meg a negyediken — kiszimatolta a csapdát, és épp most próbált eltűnni az utca felé.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of vibrant amber streetlamp glow, heavy dramatic shadows, film noir, rainy 1940s city streets, gritty ink illustration. Rain-lashed narrow 1940s alley seen from an iron fire escape, wet cobblestones, steam rising from a grate, a lone detective in a fedora and trench coat watching two armed silhouettes by a parked 1940s black sedan.",
+    "evidenceUnlocked": ["briefcase_double_lock"],
+    "choices": [
+      {
+        "text": "A tűzlétrán maradva kivárod, mit rejtenek el a fegyveresek a csatornafedőnél.",
+        "nextScene": "alley_ambush_observation"
+      },
+      {
+        "text": "Hangtalanul leereszkedsz a szemetesládák mögé, és követed a smaragdzöld ruhás nőt a főutca felé.",
+        "nextScene": "alley_tail_maeve"
+      },
+      {
+        "text": "Felfelé mászol a tűzlétrán a lapostetőre, hogy fentről lásd át a menekülési útvonalakat.",
+        "nextScene": "act1_rooftop_chase"
+      }
+    ]
+  },
+  {
+    "id": "office_bargain",
+    "title": "A NÉVTELEN TÁSKA",
+    "text": "Az ajtót kétszer fordítottam kulcsra, a reteszt is ráhúztam. A nő — Maeve O'Hara, ahogy bemutatkozott — lassú, macskaszerű mozdulattal tette le az aktatáskát a mahagóni asztalra. A rézzárak meg sem rezdültek. Ahogy elhaladt az asztali lámpa mellett, a smaragdzöld selyem minden ráncán megcsillant a fény, a rézvörös tincsek alól pedig hideg, fürkésző szempár nézett rám.\n\n— Mindenki ezt akarja, Marlowe — suttogta, és közben egy köteg ropogós százdollárost csúsztatott a poharam mellé. — A Szindikátus emberei, Callahan kapitány piszkos zsarui, és Vance szenátor ölebei is ezért tépik szét a várost ma éjjel. Ne kérdezze, mi van benne. Ha tudná, holnapra maga is a folyó fenekén végezné.\n\nAz ajánlata egyszerű volt, mint egy tarkólövés: őrizzem meg a táskát hajnalig, és éjfélkor vigyem el a Bársony Pince nevű alagsori dzsesszklubba. Ebben a pillanatban nehéz bakancsok álltak meg az irodám tejüveg ajtaja előtt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, striking red lipstick, and an amber whiskey glass, heavy dramatic shadows, film noir, smoky 1940s detective office, gritty ink illustration. Femme fatale placing a locked leather briefcase on a shadowed mahogany desk opposite a cynical detective.",
+    "evidenceUnlocked": ["maeve_profile", "briefcase_double_lock"],
+    "choices": [
+      {
+        "text": "Elrejted a táskát a hamis fenekű iratszekrényben, és kinyitod az ajtót a verőembereknek, hogy időt nyerj.",
+        "nextScene": "hallway_bluff"
+      },
+      {
+        "text": "Felkapod a pénzt és a táskát, majd Maeve-vel együtt kimászol a hátsó ablakon a tűzlétrára.",
+        "nextScene": "back_window_escape"
+      }
+    ]
+  },
+  {
+    "id": "office_inspect_case",
+    "title": "HALÁLOS KÍVÁNCSISÁG",
+    "text": "A .38-as csöve meg sem rezdült a kezemben. A nő szája sarkában gúnyos, vörös mosoly jelent meg, ahogy az asztalra dobta a táskát, de egy szót sem szólt a zárról. Úgy tűnt, pontosan tudja, mit kockáztatok — vagy csak hagyta, hogy a saját makacsságom végezzen velem.\n\nBal kézzel ráfogtam az első rézkapocsra. A fém hideg volt, mint egy hullaházi asztal. Ahogy a körmömmel felpattintottam az első zárat, és valami tompa, halvány fény szivárogni kezdett a bőrrésen át, a hátam mögött a tejüveg ajtó egyetlen robbanásszerű rúgással szilánkokra tört.\n\nKét lefűrészelt csövű sörétes torkolata villant meg a füstben. A nő az íróasztal alá vetődött — a smaragdzöld selyem villanása volt az utolsó tiszta szín, amit láttam. Meghúztam a ravaszt, de a régi töltény csütörtököt mondott; a két puska egyszerre dördült el, és a negyedik emelet sötétjét elnyelte a vörös csend.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, red lipstick, and violent crimson muzzle flash, heavy dramatic shadows, film noir, 1940s detective office, gritty ink illustration. Shattered frosted-glass office door with gunmen firing shotguns while the femme fatale dives behind the desk.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "hallway_bluff",
+    "title": "KÉT TŰZ KÖZÖTT",
+    "text": "Mire a zár újra kattant a nehéz iratszekrény hamis fenekében, Maeve már hangtalanul kisiklott a hátsó ablakon a tűzlétrára — csak egy vörös rúzsfoltos cigarettacsikk maradt utána az üveghamutartóban. Kinyitottam az ajtót, arcomra feszítve a legfáradtabb mosolyomat.\n\nKét szekrénynyi alak állt a küszöbön, átázott ballonkabátjukról csorgott a víz a folyosó kopott linóleumára. Az egyikük, egy törött orrú fickó, akinek olcsó gin- és fegyverolaj-szaga volt, belökte a vállam, és feltúrta az asztalom fiókjait. A szekrény felé sem nézett — csak a hamutartóban parázsló rúzscsikket szúrta ki.\n\n— Ha előkerül az a táska, vagy a vörös szuka, Marlowe — dörmögte, miközben az orrom alá tolta a pisztolyát —, előbb minket hívj, ne a rendőrséget. A hullaházban már így is kevés a hely. — Amikor elmentek, a hamutartó mellett egy gyűrött gyufásdobozt vettem észre a Bársony Pince címével, belsejében egy elmosódott telefonszámmal.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson lipstick on a cigarette butt in a glass ashtray, heavy dramatic shadows, film noir, smoky 1940s detective office, gritty ink illustration. Two menacing mob enforcers in wet fedoras and trench coats searching a private detective desk under harsh Venetian blind shadows.",
+    "evidenceUnlocked": ["matchbook_velvet"],
+    "choices": [
+      {
+        "text": "Kiveszed a táskát a rejtekhelyről, és azonnal elindulsz a Bársony Pince füstös alagsorába.",
+        "nextScene": "velvet_cellar_entry"
+      },
+      {
+        "text": "Előbb feltárcsázod a gyufásdoboz belsejébe firkantott számot a telefonon.",
+        "nextScene": "precinct_phone_check"
+      },
+      {
+        "text": "Kisurransz a sarki telefonfülkéhez, hogy felhívd „Vak” Eddie-t, a régi utcai informátorodat.",
+        "nextScene": "act1_informant_booth"
+      }
+    ]
+  },
+  {
+    "id": "act1_informant_booth",
+    "title": "ÉJFÉLI TELEFONFÜLKE",
+    "text": "A sarki üvegfülke neonja beteg, borostyánsárga fényt vetett a csuromvizes járdára. Bedobtam egy ötcentest, és három csörgés után beleszólt a vonal másik végébe „Vak” Eddie — az egyetlen újságos ebben a negyedben, aki éjjel többet lát a sötétben, mint a fél rendőrkapitányság nappal.\n\n— Jack, ha élni akarsz, azonnal szállj ki ebből! — zihálta Eddie a recsegő kagylóba. — Moretti húsz perce három fekete Packardot indított el a kikötő és a kínai negyed felé. Azt beszélik, a vörös hajú nő nem egyedül dolgozik: a Bársony Pincében csapda vár rá, és élve akarják kiszedni belőle, hová dugta a másik kulcsot!\n\nMég le sem raktam a kagylót, amikor a sarok túloldaláról két fényszóró lassan ráfordult a telefonfülke üvegére.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber phone booth light, heavy dramatic shadows, film noir, rainy 1940s street corner, gritty ink illustration. Detective gripping a payphone receiver inside a rain-streaked glass booth as approaching car headlights illuminate the street.",
+    "evidenceUnlocked": ["eddie_syndicate_tip"],
+    "choices": [
+      {
+        "text": "Azonnal kivetődsz a fülke hátsó oldalán a sikátorba, és a Bársony Pince felé rohansz.",
+        "nextScene": "velvet_cellar_entry"
+      },
+      {
+        "text": "Bent maradsz a sarokba lapulva, hátha elmegy melletted a kocsi anélkül, hogy észrevennének.",
+        "nextScene": "act1_booth_ambush"
+      }
+    ]
+  },
+  {
+    "id": "act1_booth_ambush",
+    "title": "SZILÁNKOS ÜVEGFÜLKE",
+    "text": "Rossz lóra tettem. A fekete Packard nem húzott el a sarok mellett — lassított, az ablak letekeredett, és egy Thompson géppisztoly csöve villant meg a hátsó ülés árnyékában.\n\nAz üvegfülke egyetlen másodperc alatt porrá és vérvörös szilánkokká robbant körülöttem. A kagyló még zúgott a fülem mellett, mikor térdre rogytam a nedves betonon — Eddie-nek igaza volt, a Szindikátus ma éjjel nem kérdezett kétszer.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with violent crimson muzzle flash and shattered amber glass, heavy dramatic shadows, film noir, rainy 1940s street corner, gritty ink illustration. Bullet-riddled payphone booth exploding in glass splinters under drive-by gunfire.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "back_window_escape",
+    "title": "ROZSDÁS LÉPCSŐK, VÖRÖS NYOMOK",
+    "text": "A hátam mögött még fel sem csattant a folyosói ajtó zárja, mi már kint voltunk az éjszakában. A nehéz aktatáska húzta a bal kezemet, miközben Maeve előttem lépdelt lefelé a csúszós vasfokokon. Minden egyes lépésnél úgy nyögött a rozsdás szerkezet, mintha fel akarna adni minket a városnak.\n\nLent, az utcalámpa borostyánsárga fénykörében két alak lépett elő a fekete Packard mellől. Az egyikük felnézett, és a sötétben azonnal kiszúrta a zöld selyemruhát. Kiáltás harsant az esőben.\n\n— Tartsa a táskát, Marlowe! — Maeve a tenyerembe nyomott egy nehéz, sárgaréz kulcsot. — Éjfélkor a Bársony Pincében! Ha túléli! — Mielőtt válaszolhattam volna, átvetette magát a szomszédos utcára nyíló vaskapun, és a rézvörös haja eltűnt egy elhaladó villamos gőzében. A sikátor mindkét végéből léptek csattantak a macskakövön.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, red lipstick, and a single amber streetlamp, heavy dramatic shadows, film noir, rainy 1940s alley, gritty ink illustration. Detective gripping a dark leather briefcase on a wet iron fire escape while the femme fatale slips away into the rainy street.",
+    "evidenceUnlocked": ["brass_key_14"],
+    "choices": [
+      {
+        "text": "Fedezékbe veted magad a fémkonténerek mögé, és tüzet nyitsz a .38-assal.",
+        "nextScene": "alley_shootout"
+      },
+      {
+        "text": "Felrántod a csatornafedőt a lábad előtt, és a bűzlő sötétségbe ereszted le magad a táskával.",
+        "nextScene": "alley_sewer_drop"
+      }
+    ]
+  },
+  {
+    "id": "alley_ambush_observation",
+    "title": "A CSATORNAFEDŐ TITKA",
+    "text": "Megvártam, míg a hideg eső teljesen átáztatja a kalapom karimáját. Lent a két fickó végre lefeszítette a csatornafedő lakatját, majd az egyikük — káromkodva, mert elvágta a tenyerét — behajította a vérfoltos bőrkötésű főkönyvet a rács alatti sötét üregbe. A Packard motorja felbőgött, és a kocsi fényszóró nélkül kigördült a főútra.\n\nLeereszkedtem a sikátorba, a kabátom zsebéből előkotortam egy görbe drótfogast, és fél perc kínlódás után kihalásztam a nedves könyvet a rács alól. A lapok összeragadtak a sártól és az alvadt vértől, de a középső oldalon három név tisztán olvasható maradt: Maeve O'Hara, Callahan kapitány és a 14-es móló raktárának száma.\n\nA tinta még friss volt a margón. Valaki nagyon gyorsan akart eltüntetni egy tartozást, mielőtt a táska új gazdára talál.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber streetlamp light and dark crimson blood stain on a wet leather ledger, heavy dramatic shadows, film noir, rainy 1940s back alley, gritty ink illustration. Detective kneeling beside a steaming iron storm drain inspecting a bloodstained ledger in the rain.",
+    "evidenceUnlocked": ["bloody_ledger"],
+    "choices": [
+      {
+        "text": "A vérfoltos főkönyvvel a zsebedben elindulsz a ködös kikötő, a 14-es móló felé.",
+        "nextScene": "docks_lead_choice"
+      },
+      {
+        "text": "Előbb felkeresed Maeve O'Hara-t a Bársony Pincében, hogy szembesítsd a könyvben talált nevével.",
+        "nextScene": "velvet_cellar_entry"
+      },
+      {
+        "text": "A sarki fülkéből felhívod „Vak” Eddie-t, hogy megtudd, merre indultak Moretti emberei.",
+        "nextScene": "act1_informant_booth"
+      }
+    ]
+  },
+  {
+    "id": "alley_tail_maeve",
+    "title": "SMARAGD A KÖDBEN",
+    "text": "Úgy követtem őt a macskaköves mellékutcákon, mint egy kóbor kutya, aki még maga sem tudja, harapni akar-e vagy csak enni kér. A város többi része szürke árnyékokból állt, de Maeve O'Hara smaragdzöld ruhája és rézvörös haja húsz lépésről is világított a zuhogó esőben. Tudta, hogy követik-e? Azok a nők, akik így sétálnak éjfélkor, mindig tudják.\n\nHárom sarokkal arrébb megállt egy jelöletlen alagsori lépcső előtt, ahol csak egyetlen fakó rézlámpa pislákolt a falon: a Bársony Pince hátsó bejárata. Amint lesietett a lépcsőn, a szemközti sarokból két civil ruhás alak lépett a külső kidobóhoz.\n\nFelismertem a szabászat nélküli kabátokat és a nehéz bakancsokat: Callahan kapitány emberei a négyes körzetből. A kidobó vastag borítékot csúsztatott az egyik zsaru zsebébe, majd mindhárman közelebb hajoltak a falhoz.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on the distant emerald green dress and copper-red hair descending a dark stairwell, heavy dramatic shadows, film noir, rainy 1940s city street, gritty ink illustration. Detective lurking in shadowy doorway watching crooked plainclothes cops taking a bribe outside an underground speakeasy.",
+    "evidenceUnlocked": ["maeve_profile", "crooked_cops_velvet"],
+    "choices": [
+      {
+        "text": "A hátsó szénledobón át beosonsz a Bársony Pince konyhájába, megkerülve a korrupt zsarukat.",
+        "nextScene": "velvet_cellar_entry"
+      },
+      {
+        "text": "A sikátor árnyékában maradsz, és kihallgatod, miről egyezkednek Callahan emberei.",
+        "nextScene": "precinct_bribe_eavesdrop"
+      }
+    ]
+  },
+  {
+    "id": "precinct_phone_check",
+    "title": "A VONAL VÉGÉN A HALÁL",
+    "text": "A tárcsa kattogva pörgött vissza a sötétben. Sokáig csak a nedves vezetékek recsegése hallatszott a kagylóból, majd egy reszelős, rémült hang szólalt meg a túloldalon — Miller őrmester a négyes körzet hullaházi ügyeletéről. Már öt éve tartozott nekem egy szívességgel egy félresikerült kikötői ügy óta.\n\n— Jack? Az isten szerelmére, ne gyere ide a főbejáraton! — suttogta, mintha valaki a válla fölött figyelné. — Fél órája húztak ki egy ismeretlen férfit a folyóból. A jobb csuklóján egy elvágott acélbilincs nyoma van... az a futár volt, aki az aktatáskát hozta a városba. Callahan kapitány már úton van az irattárba, hogy elégesse a boncolási jegyzőkönyvet.\n\nA vonal hirtelen megszakadt, mielőtt megkérdezhettem volna, honnan szerezte meg Maeve a számot. A szekrényemben ott lapult maga a táska — és hirtelen sokkal nehezebbnek tűnt, mint tíz perce.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber desk lamp glow, heavy dramatic shadows, film noir, smoky 1940s detective office, gritty ink illustration. Cynical private detective gripping a black rotary telephone receiver in deep shadow, sweat and rain shadows across his face.",
+    "evidenceUnlocked": ["courier_john_doe"],
+    "choices": [
+      {
+        "text": "A táskát elrejtve a négyes körzet hullaházába sietsz, hogy megszerezd a jelentést Callahan előtt.",
+        "nextScene": "act2_precinct_morgue"
+      },
+      {
+        "text": "Nem kockáztatsz a rendőrséggel: a táskával egyenesen a Bársony Pincébe mész Maeve-hez.",
+        "nextScene": "velvet_cellar_entry"
+      }
+    ]
+  },
+  {
+    "id": "alley_shootout",
+    "title": "ÓLOM ÉS TÓCSÁK",
+    "text": "Nem vártam meg, amíg először lőnek — ebben a városban aki illedelmes, annak a sírkövére vésik a jómodorát. Bevetődtem a rozsdás fémkonténer mögé, épp mielőtt az első sörétes lövés szétmarcangolta volna a téglafalat a fejem felett. Tégla- és vakolatpor keveredett az esővel.\n\nHáromszor lőttem vissza alacsonyan, térdmagasságban. Az első golyó szilánkosra törte a Packard bal fényszóróját, a második egy tompa nyögéssel terítette le a közelebbi fickót egy borostyánfényű pocsolyába. A társa pánikba esett, hátrálva elsütötte a fegyverét a sötétbe, majd futásnak eredt a főutca felé.\n\nA földön fekvő alak kabátja alól egy fémjelvény fordult ki a sárba. Ezek nem egyszerű alvilági verőemberek voltak — a négyes körzet szolgálaton kívüli zsarui vadásztak a táskára.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood in a glistening puddle and amber muzzle flash, heavy dramatic shadows, film noir, rainy 1940s back alley, gritty ink illustration. Detective firing a snub-nosed revolver from behind a steel dumpster in pouring rain beside a black 1940s sedan.",
+    "evidenceUnlocked": ["precinct_4_badge"],
+    "choices": [
+      {
+        "text": "Felveszed a véres rendőrjelvényt, és a négyes körzet felé indulsz, hogy megtudd, ki rendelte el a vadászatot.",
+        "nextScene": "act2_precinct_morgue"
+      },
+      {
+        "text": "Berúgod a jelvényt a csatornába, és a táskával a Bársony Pincébe sietsz Maeve-hez.",
+        "nextScene": "velvet_cellar_entry"
+      }
+    ]
+  },
+  {
+    "id": "alley_sewer_drop",
+    "title": "PATKÁNYOK ÉS ROZSDÁS VAS",
+    "text": "A csatornafedő vaspereme felsértette a tenyerem, de nem volt időm finomkodni. Leereszkedtem a jeges, bokáig érő szennyvízbe, és visszahúztam magam fölé a nehéz rácsot. Másodpercekkel később acélpatkós bakancsok dübörögtek el közvetlenül a fejem fölött; egy pillanatra zseblámpa fénye hasított le a sötétbe, aztán a léptek továbbrohantak a sikátor másik vége felé.\n\nA régi benzines öngyújtóm apró, sárga lángjánál botorkáltam végig a téglaboltozatos alagúton, szorosan a mellkasomhoz ölelve a fekete bőr aktatáskát. Ötven méterrel odébb, a folyóparti támfal tövében találtam egy rozsdás vészkijáratot.\n\nAhogy kiléptem a kikötői ködbe, megnéztem a sárgaréz kulcsot, amit Maeve a kezembe nyomott. A fogazatán egy apró szám volt beütve: 14. Nem a Bársony Pince egyik szobáját nyitotta — hanem a 14-es móló régi vámraktárának lakatját.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber Zippo lighter flame, heavy dramatic shadows, film noir, 1940s brick storm sewer tunnel, gritty ink illustration. Rain-soaked detective clutching a mysterious leather briefcase underground while shadows loom above an iron grate.",
+    "evidenceUnlocked": ["brass_key_14"],
+    "choices": [
+      {
+        "text": "A 14-es számú rézkulccsal a kezedben elindulsz a ködbe burkolózó kikötői raktár felé.",
+        "nextScene": "act2_harbor_warehouse"
+      },
+      {
+        "text": "Előbb besurransz a móló bejáratánál lévő éjjeli vámhivatalba, hogy átnézd a hajónaplót.",
+        "nextScene": "act2_harbor_customs"
+      },
+      {
+        "text": "Előbb kitisztítod a kabátod, és megkeresed Maeve-et a Bársony Pincében, hogy számon kérd a hazugságát.",
+        "nextScene": "velvet_cellar_entry"
+      }
+    ]
+  },
+  {
+    "id": "docks_lead_choice",
+    "title": "KÖD A TIZENNÉGYES MÓLÓN",
+    "text": "A kikötőben mindig ugyanaz a szag terjeng: gázolaj, rothadó deszka és valami régi, sós félelem. A 14-es móló raktára előtt egyetlen, ködbe fúló borostyánlámpa világított. Alatta, egy szétfeszített faláda tövében az éjjeliőr hevert a hátán, nyitott szemmel bámulva az esős égre. A torkát egyetlen tiszta, gyakorlott vágással nyitották fel.\n\nLetérdeltem mellé, vigyázva, hogy a cipőm ne lépjen a lassan terjengő sötét tócsába. Az őr jobb kezének gomblyukába valami beleakadt az utolsó dulakodás során: egy tenyérnyi, tépett smaragdzöld selyemfoszlány.\n\nVagy Maeve O'Hara járt már itt, mielőtt bekopogott az irodámba, vagy valaki nagyon gondosan akarta elhitetni velem, hogy a vörös hajú nő már régen átlépte a határt, ahonnan nincs visszaút.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on a single amber dock streetlamp and a torn scrap of emerald green silk caught on a coat button, heavy dramatic shadows, film noir, foggy 1940s harbor docks, gritty ink illustration. Detective kneeling beside a slain dock watchman outside a shadowed warehouse.",
+    "evidenceUnlocked": ["emerald_silk_scrap"],
+    "choices": [
+      {
+        "text": "Átléped a holttestet, és benyitsz a 14-es raktár résnyire nyitott vaskapuján.",
+        "nextScene": "act2_harbor_warehouse"
+      },
+      {
+        "text": "Előbb átvizsgálod a móló melletti vámhivatalt, amelynek ablakában halvány asztali lámpa ég.",
+        "nextScene": "act2_harbor_customs"
+      },
+      {
+        "text": "Zsebre vágod a smaragdzöld selyemfoszlányt, és a négyes körzet irattárába indulsz a főkönyvvel.",
+        "nextScene": "act2_precinct_morgue"
+      }
+    ]
+  },
+  {
+    "id": "precinct_bribe_eavesdrop",
+    "title": "PÉNZSZAG ÉS ESŐ",
+    "text": "Behúzódtam a nedves söröshordók mögé, hogy elcsípjem a beszélgetés foszlányait. Az egyik zsaru meggyújtott egy cigarettát — a gyufa sárga lángja egy másodpercre megvilágította a kemény, sebhelyes arcát. Arról beszéltek, hogy Vance szenátor az Obszidián Hotel tetőtéri lakosztályában várja a táskát napkelte előtt, és Callahan parancsa világos: amint Maeve O'Hara átadja a kulcsot, helyben el kell hallgattatni.\n\nTúlságosan belefeledkeztem a hallgatózásba. Nem vettem észre, hogy a két zsaru valójában három volt — a harmadik a lépcsőház bejárata felől került mögém, talán már percekkel ezelőtt kiszúrt a pocsolyában megcsillanó árnyékomról.\n\nA kavics megroppant a hátam mögött, de mire a .38-asért nyúltam, egy ólommal töltött ólmosbot tompa puffanása kettétörte a fejemben az éjszakát. A sárga utcai lámpa megpördült felettem, aztán minden végleg feketére váltott.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber match flame, heavy dramatic shadows, film noir, rainy 1940s alley behind a speakeasy, gritty ink illustration. Crooked detective swinging a heavy blackjack from behind onto an eavesdropping private eye crouched by wooden beer barrels.",
+    "evidenceUnlocked": ["senator_obsidian_order"],
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "velvet_cellar_entry",
+    "title": "A BÁRSONY PINCE FÜSTJE",
+    "text": "A meredek kőlépcső alján vastag szivarfüst és egy fojtott szaxofon búgása fogadott. A Bársony Pince olyan hely volt, ahol senki nem kérdezte meg a neved, amíg zörgött a zsebedben a pénz, és a kabátod alatt elfért egy pisztoly. A félhomályos bokszok között mindenki csak fekete-fehér árnyéknak tűnt — kivéve a legutolsó sarokasztalt.\n\nOtt ült Maeve O'Hara. A mély rézvörös fürtjei úgy lángoltak a smaragdzöld estélyi ruha vállán, mintha egy másik világból tévedt volna ebbe a koszos pincébe. Vörös ajkai halkan megérintették egy borostyánszínű whiskeyspohár peremét, amikor leültem vele szemben a bőrkanapéra.\n\n— Késett, Marlowe — mosolygott lassan, de a jobb keze végig az asztallap alatt maradt, valószínűleg egy gyöngyházmarkolatú pisztolyon. — És úgy fest, mint aki már kétszer is megnézte magának a poklot ma este. Ideje beszélnünk arról, mit is tartunk valójában a kezünkben.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green evening dress, striking red lipstick, and an amber whiskey glass, heavy dramatic shadows, film noir, smoky 1940s underground jazz bar booth, gritty ink illustration. Detective in fedora sitting opposite the mysterious woman across a shadowed table.",
+    "evidenceUnlocked": ["maeve_profile", "velvet_booth_rendezvous"],
+    "choices": [
+      {
+        "text": "Kifaggatod Maeve-et a 14-es raktárról, a meggyilkolt futárról és az aktatáska valódi gazdájáról.",
+        "nextScene": "act2_velvet_vip"
+      },
+      {
+        "text": "Kérsz tőle tíz percet négyszemközt a hátsó művészöltözőben, távol a pultos figyelő tekintetétől.",
+        "nextScene": "act2_velvet_dressing_room"
+      },
+      {
+        "text": "Megjátszod, hogy elfogadod az italát, majd amint feláll, követed a hátsó kijáratnál váró limuzint.",
+        "nextScene": "act2_tail_limo"
+      }
+    ]
+  },
+  {
+    "id": "act2_velvet_dressing_room",
+    "title": "BÁRSONY ÖLTÖZŐ ÉS RÉZVÖRÖS HAJ",
+    "text": "A színpad mögötti szűk öltözőben meleg parfümszag, égett sminkpor és olcsó cigaretta füstje keveredett. A falitükör körül sárgán izzó, borostyánszínű körték rajzolták ki Maeve O'Hara éles profilját a sötét téglafal előtt.\n\nLevette a fekete bőrkesztyűjét, és egy pillanatra a tükörbe nézett, mielőtt felém fordult volna. A tükörkeret sarkába egy régi, meggyűrt fénykép volt betűzve: maga Maeve mosolygott rajta egy fiatal, sapkás kikötői munkás mellett, a fotó szélén halvány tintával az állt: *„Danny, 1941”*.\n\n— Nem a pénz miatt jöttem magához, Jack — mondta halkan, és a hangjából először tűnt el az a hideg, színházi gúny. — Hanem mert egyedül maga nem tartozik sem Morettinek, sem Callahannak. Kérdezzen gyorsan, mielőtt a zenekar abbahagyja a számot.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair, emerald green dress, red lipstick, and warm amber vanity mirror bulbs, heavy dramatic shadows, film noir, 1940s speakeasy backstage dressing room, gritty ink illustration. Femme fatale turning by a lit vanity mirror in deep smoke.",
+    "evidenceUnlocked": ["danny_ohara_photo"],
+    "choices": [
+      {
+        "text": "Rámutatsz a tükör sarkába dugott fényképre, és rákérdezel Dannyre meg a folyóból kihúzott futárra.",
+        "nextScene": "act2_maeve_confession"
+      },
+      {
+        "text": "Nem hiszel a szomorú mesékben: visszaterelted őt a VIP-fülkébe, hogy megtudd, kire vár odakint.",
+        "nextScene": "act2_velvet_vip"
+      }
+    ]
+  },
+  {
+    "id": "act2_maeve_confession",
+    "title": "TESTVÉRÉRT FIZETETT VÉR",
+    "text": "Maeve ujjai egy másodpercre megremegtek a cigarettán, és egy hosszú, fehér hamucsík hullott a smaragdzöld selyemre. Nem söpörte le.\n\n— Danny az öcsém volt — vallotta be rekedten, szemében valami hideg, szinte gyilkos fáradtsággal. — Három hónapja Vance szenátor számadójának hordta a lezárt küldeményeket, amíg meg nem látta, mi van a könyvelésben. Az 1936-os dokkmészárlás névsora, a megvásárolt bírók listája... Danny másolatot akart készíteni a kulcsról, és elkapta őket a folyóparton.\n\nKözelebb lépett, olyan közel, hogy éreztem a parfümje mögött a hideg fém szagát. — Én elhoztam a táskát a holtteste mellől, Jack. Vance ma éjjel vagy kifizeti a szabadságomat a város másik végére, vagy együtt égünk el a harmincadik emeleten. — Ebben a pillanatban kívülről két revolver zárja kattant a folyosón.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair, emerald green dress, red lipstick, and amber vanity lights, heavy dramatic shadows, film noir, smoky dressing room, gritty ink illustration. Emotional close confrontation between detective and femme fatale.",
+    "evidenceUnlocked": ["maeve_brother_truth"],
+    "choices": [
+      {
+        "text": "Kikapcsolod a tükör lámpáit, és felkészülsz az ajtón berontó verőemberekre.",
+        "nextScene": "act2_dressing_ambush"
+      },
+      {
+        "text": "Feltéped a hátsó szénledobó ajtaját, és magaddal húzod Maeve-et a sikátorba.",
+        "nextScene": "act2_velvet_backdoor"
+      }
+    ]
+  },
+  {
+    "id": "act2_dressing_ambush",
+    "title": "TÜKÖR ÉS TORKOLATTŰZ",
+    "text": "A faajtó szilánkokra szakadt, amint a lámpa kialudt. A félhomályos tükörben csak három fegyveres sziluettje villant meg, mielőtt az első lövés darabokra törte az üveget körülöttünk. A csillogó szilánkok úgy hullottak a vállunkra, mint a jeges üvegeső.\n\nMaeve az öltözőasztal alól tüzelt kettőt a kis gyöngyházmarkolatúval; az egyik támadó felhördült és elterült a küszöbön. Én a .38-assal a mennyezet alatt húzódó forró gőzcsőre céloztam — egyetlen lövés elég volt, hogy sűrű, fehér gőzfátyol borítsa el a teljes folyosót.\n\nA lábunk alatt azonban ott ásított egy régi, szeszcsempész-korból maradt csapóajtó is, miközben a hátsó konyha felől már rendőri sípok harsantak.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on crimson muzzle flashes and emerald silk diving for cover, heavy dramatic shadows, film noir, shattered backstage mirror, gritty ink illustration. Gunfight amid swirling steam and broken glass.",
+    "choices": [
+      {
+        "text": "Átverekeditek magatokat a gőzön a konyha felé, kifelé a sikátorba.",
+        "nextScene": "act2_velvet_backdoor"
+      },
+      {
+        "text": "Felrántod a padlóban lévő csempész-csapóajtót, és levetitek magatokat a régi ciszternába.",
+        "nextScene": "act2_sewer_cistern"
+      }
+    ]
+  },
+  {
+    "id": "act2_sewer_cistern",
+    "title": "FÖLDALATTI CSATORNAZÁR",
+    "text": "A régi szesztilalom-kori ciszterna olyan mélyen húzódott a belváros alatt, hogy fentről még a lövések tompa dübörgése sem ért le idáig. Csak a csöpögő víz visszhangja és a rozsdás vaslétrák nyikorgása kísért minket a koromsötétben.\n\nMaeve egy pillanatra megállt a téglaboltozat alatt, hogy bekösse a harisnyája fölött elszakadt selyemruhát, majd elővett egy apró vészlámpát. — Innen két járat nyílik, Marlowe — suttogta. — A nyugati ág a kikötői vámhivatal alatti csatornába torkollik, a keleti pedig felvisz egészen a kínai negyed zálogházai mögé.\n\nA kezem még remegett az adrenalintól, de a fejem tiszta volt: most már tudtam, hogy a város alatt egy másik város is létezik — ugyanolyan mocskos, csak kevesebb a tanú.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on an amber flashlight beam, emerald green dress, and copper-red hair, heavy dramatic shadows, film noir, 1940s underground prohibition cistern, gritty ink illustration. Detective and femme fatale navigating dark brick tunnels.",
+    "choices": [
+      {
+        "text": "A nyugati járaton a kikötői vámhivatal alá osontok, hogy megtudjátok, mikor érkezett a láda.",
+        "nextScene": "act2_harbor_customs"
+      },
+      {
+        "text": "A keleti ágat választod, hogy a kínai negyedi kulcsmásoló műhelyébe jussatok.",
+        "nextScene": "act3_chinatown_pawn"
+      }
+    ]
+  },
+  {
+    "id": "act2_velvet_vip",
+    "title": "SMARAGD MÉREG ÉS HAMIS KÁRTYÁK",
+    "text": "Maeve hátraintett a pultosnak, mire mindkettőnket beterelt egy vastag függönnyel elválasztott hátsó VIP-fülkébe. Odabent a füst még sűrűbb volt, a borostyánszínű ital két pohárban csillogott közöttünk. A nő ujjai finoman végigsimítottak a láncos bőr aktatáska szélén — mintha egy alvó vadállatot simogatna.\n\n— A táskában lévő kulcsokról maga is tud, Jack — suttogta, és egy pillanatra előrehajolt, hogy a rézvörös haja elfedje az arcát a kémlelő szemek elől. — A benne lévő iratokért Vance szenátor a teljes alvilágot beáldozná, a Szindikátus pedig pontosan tudja, hogy ha a szenátor megszerzi őket, mindenkit felakasztanak a dokkoknál. De az egyik kulcs még mindig a futárnál maradt, a másik pedig...\n\nA dzsesszzenekar hirtelen félbeszakította a dalt a függöny túloldalán. Nehéz léptek dobbantak a kőpadlón: Vinnie „Penge” Moretti és a Szindikátus emberei zárták le a lépcsőházat. Maeve lassan az asztalon álló poharam felé biccentett, miközben a függöny megmozdult.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green evening dress, striking red lipstick, and two amber whiskey glasses, heavy dramatic shadows, film noir, private speakeasy VIP booth, gritty ink illustration. Tense standoff behind velvet curtains as mob silhouettes gather outside.",
+    "choices": [
+      {
+        "text": "Ráborítod a nehéz tölgyfa asztalt az érkező fegyveresekre, és Maeve-vel a konyhai szénledobón át menekülsz.",
+        "nextScene": "act2_velvet_backdoor"
+      },
+      {
+        "text": "Megemeled a poharat az asztali lámpa felé, hogy ellenőrizd, mi úszik a bourbon tetején.",
+        "nextScene": "act2_velvet_poison_check"
+      },
+      {
+        "text": "Kivetődsz a függönyön át a zsúfolt bárpult közé, és tömegverekedést robbantasz ki fedezéknek.",
+        "nextScene": "act2_velvet_bar_brawl"
+      },
+      {
+        "text": "Megbízol a smaragdzöld ruhás nőben, belekortyolsz az italba, és hagyod, hogy ő tárgyaljon Moretti embereivel.",
+        "nextScene": "act2_velvet_drink_trap"
+      }
+    ]
+  },
+  {
+    "id": "act2_velvet_poison_check",
+    "title": "ÜVEG ALATT A MÉREG",
+    "text": "Nem ittam — csak a borostyánsárga lámpa alá emeltem a poharat, mintha a whiskey tisztaságát csodálnám. A felszínen alig látható, olajos gyűrű úszott, a peremről pedig édeskés, keserűmandula-szag csapta meg az orromat. Maeve mosolya egyetlen tizedmásodpercre megfagyott.\n\n— Szép próbálkozás, édesem — sziszegtem, és mielőtt a fegyveréért nyúlhatott volna, az italt egyenesen az asztal túloldalára lőttem, a szemébe. Felüvöltött, miközben én már rántottam is kifelé a .38-ast, és két gyors lövéssel szétlőttem a fülke falikarját.\n\nA sötétben kirántottam a konyhába nyíló szervizajtót; Maeve káromkodva botorkált utánam a füstben, mintha mi sem történt volna — ebben a játékban még az árulás sem ok arra, hogy külön kocsival meneküljünk.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on glowing amber poisoned whiskey glass, emerald dress, and red lipstick, heavy dramatic shadows, film noir, speakeasy VIP booth, gritty ink illustration. Detective spotting poison droplets under lamplight.",
+    "choices": [
+      {
+        "text": "Kirúgod a konyha lengőajtaját, és kirohansz a hátsó sikátorba a füst elől.",
+        "nextScene": "act2_velvet_backdoor"
+      }
+    ]
+  },
+  {
+    "id": "act2_velvet_bar_brawl",
+    "title": "ÖKÖL ÉS SZILÁNKOK A PULTNÁL",
+    "text": "Amint Moretti első embere félrehúzta a bársonyfüggönyt, egy üres whiskeyspalackkal a két szeme közé vágtam. A szaxofonos elhallgatott, az egyik részeg kikötőmunkás elordította magát, és másodpercekkel később az egész Bársony Pince repülő székek és törött poharak csataterévé változott.\n\nÁtvetettem magam a mahagóni bárpult felett, miközben golyók szaggatták szét a tükrös polcon sorakozó üvegeket — a drága konyak és a vér egyaránt sötét patakokban folyt le a fára. Két másodperccel később már kint voltam a konyhaajtó mellett, ahol a kijárat két különböző menekülési irányt kínált.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber liquor bottles shattering in gunfire, heavy dramatic shadows, film noir, 1940s underground jazz bar brawl, gritty ink illustration. Chaotic bar fight with flying chairs and muzzle flashes.",
+    "choices": [
+      {
+        "text": "Visszafordulsz Maeve-ért, és együtt surrantok ki a hátsó szénledobón.",
+        "nextScene": "act2_velvet_backdoor"
+      },
+      {
+        "text": "Kiosonsz a hátsó parkolóba, és nyomába eredsz a épp elinduló fekete limuzinnak.",
+        "nextScene": "act2_tail_limo"
+      }
+    ]
+  },
+  {
+    "id": "act2_velvet_drink_trap",
+    "title": "KESERŰ MANDULA",
+    "text": "A bourbonnek furcsa, keserű mandulaíze volt — de mire a pohár visszakoppant az asztalra, a nyelvem már elzsibbadt, a szoba pedig lassan megdöntötte a falait. Maeve nem is próbált úgy tenni, mintha meglepődne. Felállt, lesimította a smaragdzöld selyemruháját, és egyetlen kecses kézmozdulattal intett a függönyt széthúzó Morettinek.\n\n— Szép munka, Marlowe — suttogta, amikor lehajolt fölém, hogy kivegye az elernyedő ujjaimból a kulcsot vagy a táskát. Vérvörös ajka alig egy hüvelykre volt az arcomtól, de a lehelete hideg volt, mint a tél. — Mindig hittem a magafajta romantikus barmokban.\n\nA padlóra csúsztam, miközben a fekete-fehér sötétség végleg összezárult felettem. Csak a smaragdzöld ruha utolsó suhogása maradt meg, amikor elindult felfelé a lépcsőn — nélküled.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, and striking red lipstick, heavy dramatic shadows, film noir, smoky speakeasy VIP booth, gritty ink illustration. Femme fatale standing coolly over a drugged, collapsed detective as mobsters step out of the dark.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act2_velvet_backdoor",
+    "title": "FÜSTÖS KONYHÁBÓL A KÁOSZBA",
+    "text": "Nem a piáért jöttem ide, hanem hogy életben maradjak. Egyetlen rúgással borítottam rá a tölgyfa asztalt az elsőként benyitó két verőemberre; a poharak szilánkjai szanaszét repültek, és a .38-asom kétszer dördült a mennyezet felé, szétoszlatva a füstös pánikot. Karon ragadtam Maeve-et, és belöktük a konyha lengőajtaját.\n\nA gőzölgő fazekak és a rézedények között golyók süvítettek el mellettünk, vakolatot szórva a fekete-fehér csempére. Az apró szénledobón át csúsztunk ki a hátsó sikátorba, miközben odabent már üvöltött Moretti. Odakint két útvonal villant fel a ködben: a kínai negyed keskeny utcái felé tartó teherautó platója, vagy egy járó motorú, fekete limuzin, amely éppen most kanyarodott ki a főútra.\n\nMaeve zihálva szorította meg a kabátom hajtókáját; a zöld selyem ujja elszakadt a könyökénél.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, and red lipstick, heavy dramatic shadows, film noir, 1940s speakeasy kitchen and rainy back alley, gritty ink illustration. Detective and femme fatale bursting through swinging doors amid flying gunfire and steam.",
+    "choices": [
+      {
+        "text": "Felugrasz a kínai negyed felé döcögő teherautóra, hogy meglátogasd a zálogház öreg kulcsmásolóját.",
+        "nextScene": "act3_chinatown_pawn"
+      },
+      {
+        "text": "Rövidre zársz egy parkoló kocsit, és a hátsó utcán eltűnő fekete limuzin nyomába eredsz.",
+        "nextScene": "act2_tail_limo"
+      }
+    ]
+  },
+  {
+    "id": "act2_tail_limo",
+    "title": "FEKETE LIMUZIN A VÖRÖSLÁMPÁS NEGYEDBEN",
+    "text": "A hosszú fekete limuzin úgy hasította az esőt a kikötői sugárúton, mint egy gyászhintó. Kikapcsolt fényszóróval követtem fél sarok távolságból, a szélvédőn csak az ablaktörlő monoton csikorgása mérte az időt. Nem a rendőrséghez tartott, és nem is a belvárosba — a vöröslámpás negyed szélén kanyarodott be a régi, bezárt Vágóhíd kőkapuja alá.\n\nLeállítottam a kocsit a szemközti tehervagonok árnyékában, és gyalog osontam közelebb. Az udvar közepén égő egyetlen borostyánsárga lámpa alatt Vance szenátor két testőre nyitotta fel a csomagtartót, és egy átázott, nehéz vitorlavászon zsákot vonszoltak be a vágóhíd oldalsó ajtaján.\n\nA nyitva felejtett limuzin rádiójából fojtott rendőrségi adás szűrődött ki: Callahan egységei éppen a 14-es kikötői raktárt veszik körül, mert azt hiszik, Maeve O'Hara és az aktatáska még mindig ott van.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber yard lamp glow, heavy dramatic shadows, film noir, rainy 1940s industrial slaughterhouse yard, gritty ink illustration. Detective spying from behind dark train cars on two men dragging a heavy canvas sack from a black 1940s limousine.",
+    "choices": [
+      {
+        "text": "A Vágóhíd rozsdás tetőablakán át beosonsz, hogy a magasból figyeld meg, mi folyik odabent.",
+        "nextScene": "act3_slaughterhouse_roof"
+      },
+      {
+        "text": "Elrohanva a 14-es kikötői raktárhoz sietsz, mielőtt Callahan zsarui teljesen lezárják a mólót.",
+        "nextScene": "act2_harbor_warehouse"
+      }
+    ]
+  },
+  {
+    "id": "act2_precinct_morgue",
+    "title": "HULLÁK ÉS HAMVAK A NÉGYESBEN",
+    "text": "A négyes körzet alagsorában olyan hideg volt, hogy meglátszott a leheletem a gyér fényben. Egyetlen csupasz, borostyánsárgán pislákoló körte lógott a rozsdamentes acél hullafiókok felett. Miller őrmester ott ült az irattári asztalnál — pontosabban a fejét az asztalra hajtotta, a tarkóján pedig egyetlen, hangtompítós lövés sötét nyoma éktelenkedett.\n\nElkéstem öt percet. A helyiség végében a régi széntüzelésű iratégető kemence ajtaja nyitva állt, és két civil ruhás zsaru éppen vastag paksamétákat dobált a parázsba. Az asztal sarkán azonban még ott feküdt egy megpörkölődött szélű sárga mappa: a #409-es ismeretlen folyami futár boncolási jegyzőkönyve.\n\nA lépteim alig hallatszottak a vizes kövön, de ha bármi megcsörren, mindkét zsaru fegyvert ránt ebben a szűk pincében.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of vibrant amber hanging bulb glow, heavy dramatic shadows, film noir, 1940s police precinct morgue and archive basement, gritty ink illustration. Detective in fedora and trench coat secretly examining autopsy files beside stainless steel morgue drawers in deep shadow.",
+    "evidenceUnlocked": ["autopsy_dossier"],
+    "choices": [
+      {
+        "text": "Hátulról leütöd a közelebbi zsarut a revolver markolatával, és elragadod a félkész dossziét meg a boncasztalon csillogó tárgyat.",
+        "nextScene": "act2_morgue_steal"
+      },
+      {
+        "text": "A nyitott hullakamra fiókjai mögé lapulva megvárod, míg kimennek, és a hamuból szeded össze, ami maradt.",
+        "nextScene": "act2_morgue_eavesdrop"
+      },
+      {
+        "text": "Besurransz a szomszédos toxikológiai laborba, ahol a rémült boncorvos még mindig ébren ül a kávéja felett.",
+        "nextScene": "act2_morgue_coroner"
+      }
+    ]
+  },
+  {
+    "id": "act2_morgue_coroner",
+    "title": "A BONCORVOS KÁVÉJA",
+    "text": "Dr. Harlan keze úgy remegett, hogy a fekete kávé kilöttyent a fehér laboratóriumi köpenyére, amikor a .38-as csöve hozzáért a halántékához. Nem volt bátor ember — csak egy szegény orvos, aki túl sokat keresett ahhoz, hogy felmondjon Callahannak.\n\n— Esküszöm, Jack, én csak leírtam, amit találtam! — suttogta halálsápadtan. — A folyóból kihúzott fiú, a #409-es… nem fulladt meg! Előbb agyonlőtték egy kikötői fegyverrel, és a jobb kezéből kitéptek egy családi gyűrűt, mielőtt vízbe dobták volna. A zsebében volt egy temetői parcellacímke a Szent Júdás temetőbe, meg egy városházi iktatószám 1936-ból!\n\nA szomszéd teremből csattant a kemenceajtó; hamarosan végeznek az iratégetéssel, és átjönnek ellenőrizni a labort.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber laboratory desk lamp glow, heavy dramatic shadows, film noir, 1940s morgue back lab, gritty ink illustration. Cornered pale coroner whispering secrets to a stern detective.",
+    "evidenceUnlocked": ["silver_inner_key"],
+    "choices": [
+      {
+        "text": "A hátsó teherlépcsőn át a Szent Júdás temetőbe hajtasz, mielőtt lezárják a kriptát.",
+        "nextScene": "act2_cemetery_gate"
+      },
+      {
+        "text": "Az 1936-os iktatószámmal egyenesen a Városháza alagsori levéltárába törsz be.",
+        "nextScene": "act3_cityhall_entry"
+      }
+    ]
+  },
+  {
+    "id": "act2_morgue_steal",
+    "title": "EGYEDÜL A RENDŐRSÉG ELLEN",
+    "text": "Az első ütés pontosan a fül mögött érte a zsarut; összeesett, mint egy vizes zsák. A társa felkapta a fejét, de mire a hónaljtokjához ért, a .38-asom csöve már az orrnyergének feszült — egyetlen tompa koppintással őt is elküldtem aludni a fémfiókok közé.\n\nFelkaptam a dossziét, és pillantásom a boncasztal rozsdamentes tálcájára tévedt: a #409-es futár utolsó perceiben lenyelte az aktatáska egyik belső, apró ezüstkulcsát, mielőtt megfojtották volna. A boncorvos már kioperálta és megtisztította — ott csillogott a tálca sarkán egy zálogcédula mellett, amely egy kínai negyedi címre szólt.\n\nA kulcsot a zsebembe csúsztattam, de abban a pillanatban a folyosó végi sziréna halkan felbúgott. Valaki észrevette a fenti ajtót.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber hanging bulb light over a glinting silver key on a steel autopsy tray, heavy dramatic shadows, film noir, 1940s police morgue, gritty ink illustration. Detective pocketing evidence beside knocked-out crooked cops as alarms begin.",
+    "evidenceUnlocked": ["silver_inner_key"],
+    "choices": [
+      {
+        "text": "A szennyeslift aknáján át kijutsz az utcára, és a zálogcédula címére, a kínai negyedbe sietsz.",
+        "nextScene": "act3_chinatown_pawn"
+      },
+      {
+        "text": "A boncolási dossziéban szereplő temetői parcellát, a Szent Júdás temetőt ellenőrzöd előbb.",
+        "nextScene": "act2_cemetery_gate"
+      },
+      {
+        "text": "A boncolási dosszié margóján megjelölt találkozóhelyre, a régi Vágóhídhoz indulsz.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act2_morgue_eavesdrop",
+    "title": "PORRA ÉGETETT BIZONYÍTÉK",
+    "text": "Behúztam a hasam két nyitott hűtőkamra acélajtaja közé, és visszatartottam a lélegzetem. A két zsaru sietve beledobta a maradék dossziét a kemencébe, majd az egyikük rágyújtott, miközben a feletteseikről morogtak. *„Callahan kettőre vár minket a Vágóhídon. Ha a vörös hajú nő megjelenik a táskával, senkit ne hagyjatok élve.”*\n\nAmint becsapódott mögöttük a nehéz vasajtó, előbújtam a sötétből, és egy vasrúddal kikapartam a félig elégett papírt a parázs széléről. A lángok a lap háromnegyedét felemésztették, de az alsó sarkon ép maradt egy viaszpecsét, egy Szent Júdás temetői kriptaszám és egy kínai negyedi zálogház címe.\n\nA hulla már kihűlt az asztalon, de a város fűtése éppen most kezdődött el.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of glowing amber furnace embers, heavy dramatic shadows, film noir, 1940s precinct basement, gritty ink illustration. Detective pulling a half-burned confidential document from an iron incinerator with a poker.",
+    "evidenceUnlocked": ["burned_seal_note"],
+    "choices": [
+      {
+        "text": "A hamuból kimentett címet követve elindulsz a kínai negyed zálogházába.",
+        "nextScene": "act3_chinatown_pawn"
+      },
+      {
+        "text": "Megnézed a megpörkölődött kriptaszámot a Szent Júdás temetőben.",
+        "nextScene": "act2_cemetery_gate"
+      },
+      {
+        "text": "Egyenesen a zsaruk által emlegetett Vágóhíd felé veszed az irányt.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act2_harbor_customs",
+    "title": "ÉJJELI VÁMHIVATAL A KÖDBEN",
+    "text": "A móló bejáratánál álló kis téglaépületben egyetlen, zöld ernyős lámpa vetett meleg borostyánszínű fénykört a kiterített hajónaplókra. Odakint a ködben sötét daruk karjai meredtek az égre, mint egy kivégzőosztag akasztófái.\n\nAz íróasztalon egy még meleg teáscsésze állt, mellette a mai éjszakai kirakodás vámpapírja. A 409-es számú tétel mellett piros tintával az állt: *„Diplomáciai védettségű láda — Szenátor Vance hivatalos pecsétje — átvevő: M. O'Hara”*. Valaki tehát nem ellopta az aktatáskát egy bankból: az egész ügy politikai megrendelésre érkezett a keleti partról.\n\nA hátsó öltözőajtó mögül hirtelen csoszogás hallatszott — az éjjeli vámtiszt még nem ment haza.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with ONLY a single splash of warm amber desk lamp glow, heavy dramatic shadows, film noir, 1940s harbor customs office at night, rain-streaked glass window overlooking dark dock cranes, cluttered wooden desk with shipping manifests and rotary phone, cigarette smoke, no text.",
+    "evidenceUnlocked": ["shipping_manifest_409"],
+    "choices": [
+      {
+        "text": "Elkapod a hátsó szobában bujkáló vámtisztet, és kiszeded belőle, ki fizetett a hallgatásáért.",
+        "nextScene": "act2_customs_interrogation"
+      },
+      {
+        "text": "Elviszed a hajónapló lapját, és átsietesz a sötét 14-es raktárba.",
+        "nextScene": "act2_harbor_warehouse"
+      }
+    ]
+  },
+  {
+    "id": "act2_customs_interrogation",
+    "title": "REMEGŐ VÁMTISZT ÉS BOROSTYÁNLÁMPA",
+    "text": "A vékony, szemüveges hivatalnok úgy remegett a falnak szorítva, mintha a novemberi fagyot a csontjaiba zárták volna. Amikor a .38-as csöve finoman megkocogtatta a szemüvegkeretét, minden titok kiszakadt belőle, mint a túlzsúfolt aktákból a por.\n\n— Minden hónapban egyszer jönnek Callahan emberei egy vastag borítékkal! — nyöszörögte. — Azt mondták, ha ma éjjel bármit látunk a 14-es mólón, az utolsó éjszakánk lesz a városban. Egy órája Moretti kocsijai álltak meg a raktár előtt, a vörös hajú nő pedig elmenekült egy halászbárka irányába, mielőtt lőni kezdtek!\n\nKinéztem az esőverte ablakon: a móló végén álló hatalmas daru tetején egy apró, vörös cigarettaparázs izzott a sötétben — valaki onnan figyelte a kikötő minden négyzetméterét.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber desk lamp glow, heavy dramatic shadows, film noir, 1940s customs office interrogation, gritty ink illustration. Detective cornering a terrified customs clerk against filing cabinets.",
+    "evidenceUnlocked": ["vance_pier_bribe"],
+    "choices": [
+      {
+        "text": "A fedett rakodórámpa alatt óvatosan átsurransz a 14-es raktárba.",
+        "nextScene": "act2_harbor_warehouse"
+      },
+      {
+        "text": "Lekerülsz a parti stégre, hogy egy öreg csempészbárkával juss el a temetői partra vagy a kínai negyedbe.",
+        "nextScene": "act2_dock_smuggler_boat"
+      },
+      {
+        "text": "Egyenesen kirohansz a nyílt mólóra, hogy elkapd a menekülő kocsik nyomát a lámpák alatt.",
+        "nextScene": "act2_pier_sniper_trap"
+      }
+    ]
+  },
+  {
+    "id": "act2_pier_sniper_trap",
+    "title": "A DARU ÁRNYÉKÁBÓL",
+    "text": "Három lépést sem tettem meg a nyílt betonmólón, amikor a magasan álló daru fülkéjéből egyetlen éles, kék-fehér torkolattűz villant le az esőbe. Ebben a városban nem figyelmeztető lövéssel kezdenek.\n\nA nagy kaliberű golyó hangja csak egy másodperccel később ért el hozzám, amikor már arccal a sós, olajos pocsolyában feküdtem. A daru árnyéka mozdulatlan maradt felettem — csak egy újabb éjszakai hulla a tizennégyes mólón.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood spreading into a dark pier puddle, heavy dramatic shadows, film noir, foggy 1940s harbor pier, gritty ink illustration. Distant sniper flash from towering dock crane.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act2_harbor_warehouse",
+    "title": "VÉR A TIZENNÉGYES RAKTÁRBAN",
+    "text": "A 14-es raktár vaskapuja rozsdásan nyikordult, amikor belöktem. Odabent a betört tetőablakon át zuhogott be a hideg eső, hatalmas, sötét tócsákat képezve a repedezett betonon. A hátsó falnál egy széket láncoztak egy acéloszlophoz — rajta a vámhivatal egyik idősebb tisztje ült, fejét lehajtva, mellkasán sötét, megfagyott vérfolttal.\n\nA szék lába mellett két apró tárgy hevert a porban: egy női smaragdzöld selyemkesztyű, és egy véres, gravírozott arany mandzsettagomb, *V.M.* monogrammal — Vinnie Moretti, a Szindikátus alvezére járt itt, mielőtt a köd leszállt.\n\nA falra valaki friss fehér krétával írt fel egyetlen mondatot a későn érkezőknek: *„A vörös hajú a Vágóhídon van.”* De a sarokban a művezető régi acélszekrénye félig nyitva állt, mintha még maradt volna benne valami.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on a dropped emerald green glove on wet concrete and a faint amber shaft of light, heavy dramatic shadows, film noir, abandoned 1940s harbor warehouse, gritty ink illustration. Detective examining a murder scene beside a chained chair.",
+    "evidenceUnlocked": ["moretti_cufflink"],
+    "choices": [
+      {
+        "text": "Előbb felfeszíted a művezető fali páncélszekrényét, hogy megnézd, mit rejtegetett a vámos.",
+        "nextScene": "act2_warehouse_ledger_safe"
+      },
+      {
+        "text": "Zsebre vágod a mandzsettát bizonyítéknak, és elindulsz a Vágóhídra Maeve után.",
+        "nextScene": "act3_slaughterhouse_entry"
+      },
+      {
+        "text": "Nem ugrasz bele vakon a csapdába: előbb felkeresed a kínai negyedi zálogost a kulcsok eredete miatt.",
+        "nextScene": "act3_chinatown_pawn"
+      }
+    ]
+  },
+  {
+    "id": "act2_warehouse_ledger_safe",
+    "title": "A ROZSDÁS PÁNCÉLSZEKRÉNY",
+    "text": "A pajszerral két kemény rántás után engedett a régi vaskazetta. Belül nem pénz volt, hanem egy viaszosvászonba tekert rézpecsét-tervrajz és egy boríték, benne a kínai negyedi kulcsmásoló nevével: Li.\n\nA papír sarkára vörös ceruzával jegyezték fel a táska két különböző belső zárának kódját — a szenátor titkára tehát még a Szindikátus előtt megpróbálta lemodellezni a zárat. De nem volt időm élvezni a felfedezést: odakintről üvegcsörömpölés hallatszott, és egy benzineskannából kifolyt folyadék lángra lobbant a raktár kapujában.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber lantern light inside an open rusted iron safe, heavy dramatic shadows, film noir, 1940s warehouse office, gritty ink illustration. Detective pulling a wax-wrapped blueprint from a pried-open safe.",
+    "choices": [
+      {
+        "text": "Áttörsz a lángoló raktárajtón a külső olajhordók fedezékébe.",
+        "nextScene": "act2_warehouse_fire"
+      },
+      {
+        "text": "A hátsó szellőzőablakon át kimászol, és egyenesen a kínai negyed zálogházába sietsz.",
+        "nextScene": "act3_chinatown_pawn"
+      }
+    ]
+  },
+  {
+    "id": "act2_warehouse_fire",
+    "title": "GÁZOLAJ ÉS VÖRÖS LÁNGOK",
+    "text": "A 14-es raktár száraz fagerendái úgy kaptak lángra a gázolajtól, mintha petróleumba áztatták volna őket. A tűz forró, narancssárga-vörös függönye pillanatok alatt elvágta a főkaput; a tetőről izzó szikrák hullottak az esőbe.\n\nA ballonkabátomat a fejemre húzva két lövéssel szétlőttem a parti mólóra nyíló vészajtó lakatját, és kizuhantam a hűvös kikötői ködbe. Mögöttem a raktár teteje robajjal szakadt be — mire Callahan zsarui ideérnek, már csak üszkös romot találnak a halott vámossal együtt.\n\nA stégen egy öreg csempész éppen indította rozsdás halászbárkáját a sötét folyón, miközben a város másik végében a Vágóhíd tornya felett is felhők tornyosultak.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant splashes of roaring crimson and amber warehouse fire against black night sky, heavy dramatic shadows, film noir, burning 1940s dock warehouse, gritty ink illustration. Detective bursting out of burning warehouse doors into rain.",
+    "choices": [
+      {
+        "text": "Felugrasz az induló csempészbárkára, hogy a folyón át megkerüld a rendőri útzárakat.",
+        "nextScene": "act2_dock_smuggler_boat"
+      },
+      {
+        "text": "A parti sínek mentén egyenesen a Vágóhídhoz rohansz Maeve után.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act2_dock_smuggler_boat",
+    "title": "HALÁSZBÁRKA A SÖTÉTBEN",
+    "text": "Az öreg Sal nem kérdezett semmit, amikor egy ötvenest dobtam a kátrányszagú kormányfülkébe — csak bólintott, és sötét fényszóró nélkül kifordult a gázolajos hullámokra. A folyó fekete tükre olyan volt, mint az olvadt ólom; a parti lámpák borostyánszínű foltjai lassan elúsztak mellettünk.\n\n— Két helyre tudlak kitenni szirénák nélkül, Marlowe — dörmögte Sal, miközben rágyújtott egy ázott szivarra. — A keleti partfalnál, közvetlenül a Szent Júdás temető kőkerítése alatt, vagy feljebb a csatornabejáratnál, ahol a kínai negyed hátsó varrodái kezdődnek.\n\nA csuklóm fájt a kötélnyomtól, de végre néhány percnyi csöndet kaptam ebben a végtelen éjszakában.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of dim amber boat lantern glow on black river water, heavy dramatic shadows, film noir, foggy 1940s harbor tugboat at night, gritty ink illustration. Detective standing on wet deck beside an old smuggler captain.",
+    "choices": [
+      {
+        "text": "A Szent Júdás temető alatti partfalnál szállsz ki, hogy megnézd Danny O'Hara kriptáját.",
+        "nextScene": "act2_cemetery_gate"
+      },
+      {
+        "text": "Feljebb hajózol a csatornáig, és a kínai negyed titkos selyemvarrodájánál lépsz partra.",
+        "nextScene": "act3_chinatown_tailor"
+      }
+    ]
+  },
+  {
+    "id": "act2_cemetery_gate",
+    "title": "SZENT JÚDÁS TEMETŐ ÉJFÉLKOR",
+    "text": "A Szent Júdás temető kovácsoltvas kapuja úgy nyikorgott az éjszakai szélben, mint egy régi koporsó fedele. A viharos esőben a sírkövek szürke sorai néma katonákként álltak a sötétben — kivéve a keleti fal melletti régi családi kriptát, amelynek résnyire nyitott ajtaján halvány, borostyánsárga lámpás fénye szűrődött ki.\n\nA nedves kőlépcsőn vörös rózsaszirmok és egy fél pár sáros női cipőnyom látszott. A temetőőr kunyhója mellett közben egy görnyedt alak ásót támasztott a fának, és reszkető kézzel próbált meggyújtani egy nedves cigarettát.\n\nMaeve — vagy aki rá akarta kenni a nyomot — nem véletlenül járt itt éjfél után.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with ONLY a single splash of amber lantern light and deep crimson rose petals on wet stone, heavy dramatic shadows, film noir, rain-lashed 1940s gothic cemetery at midnight, iron gates, open stone crypt doorway, detective silhouette in fedora and trench coat, no text.",
+    "choices": [
+      {
+        "text": "Előbb kifaggatod a megrémült sírásót a fánál, hogy ki járt a kriptában fél órája.",
+        "nextScene": "act2_gravedigger_talk"
+      },
+      {
+        "text": "Hangtalanul, kibiztosított revolverrel lépsz be a megvilágított kriptába.",
+        "nextScene": "act2_cemetery_crypt"
+      }
+    ]
+  },
+  {
+    "id": "act2_gravedigger_talk",
+    "title": "ÁSÓ, LÁMPÁS ÉS VALLOMÁS",
+    "text": "A sírásó bűzlött az olcsó rostélyostól és a még olcsóbb gintől, de amikor a zseblámpám fénye elkapta a szemét, gyorsan visszanyerte a józanságát.\n\n— A vörös hajú nő volt az, uram — suttogta, és egy ón-réz kulcscímkét nyomott a tenyerembe, amit a bokor alatt talált. — Zöld ruhában jött egyedül, sírt a fiatalember sírköve előtt, aztán bedugott valamit a belső fülkébe. De tíz perccel később két fekete kabátos férfi is beosont utána zseblámpával!\n\nA címkébe egy szám és egy zálogházi pecsét volt ütve — valaki két fronton is biztosította magát az éjszaka folyamán.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber lantern glow on a weathered face, heavy dramatic shadows, film noir, 1940s rainy cemetery shack, gritty ink illustration. Detective questioning a frightened old gravedigger holding a shovel.",
+    "evidenceUnlocked": ["crypt_key_tag"],
+    "choices": [
+      {
+        "text": "Belépsz a kriptába, hogy lásd, kik várnak bent a sötétben.",
+        "nextScene": "act2_cemetery_crypt"
+      },
+      {
+        "text": "A kulcscímkével egyenesen a kínai negyedi zálogházhoz sietsz.",
+        "nextScene": "act3_chinatown_pawn"
+      }
+    ]
+  },
+  {
+    "id": "act2_cemetery_crypt",
+    "title": "A NYITOTT KRIPTA TITKA",
+    "text": "A kripta kőfalaiból áradt a dohos, jéghideg csend. A középső márványpadkán csak egy pislogó viharlámpa égett — mellette pedig egy kiterített Szindikátus-futár hevert, mellkasában egyetlen tiszta, kis kaliberű golyóval. Maeve már továbbment, de a halott ujjaiba szorítva hagyott egy összetört ezüst medált, benne egy kézzel írt jegyzettel: *„Városháza — Alagsor B-14”*.\n\nAzonnal tudtam, mi az: ha Vance szenátor el akarja tüntetni a tízéves mocskot, az eredeti bírósági papírok másolatai a Városháza irattárában maradtak.\n\nOdakintről azonban kavics csikordult a temetői ösvényen — valaki épp most vette körbe a kripta kijáratát.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber lantern light and crimson rose petals on cold stone, heavy dramatic shadows, film noir, inside 1940s stone cemetery crypt, gritty ink illustration. Detective examining a locket note beside a fallen mob courier.",
+    "choices": [
+      {
+        "text": "Kivetődsz a temetői kőoszlopok fedezékébe, és tüzet nyitsz a támadókra.",
+        "nextScene": "act2_crypt_ambush"
+      },
+      {
+        "text": "A kripta mögötti alacsony kőkerítésen átugorva a Városháza felé menekülsz.",
+        "nextScene": "act3_cityhall_entry"
+      }
+    ]
+  },
+  {
+    "id": "act2_crypt_ambush",
+    "title": "KŐOSZLOPOK KÖZÖTT",
+    "text": "A golyók szikrákat vetettek a gránit angyalszobrok szárnyán, ahogy átvetődtem a keskeny ösvény túloldalára. Két verőember szorított be a kripta és a nyílt sírparcellák közé — az eső szinte függönyként takarta el a torkolattüzet.\n\nKét gyors lövéssel szétlőttem a kapu melletti viharlámpát, mire a sötétség visszavette az uralmat a temető felett. A jobb oldali kiskapun át elérhető volt a kínai negyedbe vezető sötét sikátor, míg egyenesen a nyílt sírok között egy alacsony kőfal látszott.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson gunfire sparks chipping stone tombstones, heavy dramatic shadows, film noir, midnight cemetery gunfight, gritty ink illustration. Detective taking cover behind a stone angel statue in pouring rain.",
+    "choices": [
+      {
+        "text": "Átslisszansz a kiskapun a kínai negyed selyemvarrodájának sikátorába.",
+        "nextScene": "act3_chinatown_tailor"
+      },
+      {
+        "text": "Kirohansz a nyílt sírok között a távoli kőfal irányába.",
+        "nextScene": "act2_cemetery_dead_end"
+      }
+    ]
+  },
+  {
+    "id": "act2_cemetery_dead_end",
+    "title": "FRISS SÍRGÖDÖR",
+    "text": "A nyílt temetői sárban nincs fedezék — és aki reflektorfényben fut, annak még csak célozni sem kell a hátára. A csizmám megcsúszott egy frissen ásott sírgödör peremén, beleestem a jéghideg agyagba.\n\nMielőtt feltápászkodhattam volna, két alak lépett a gödör szélére, zseblámpájuk fénye elvakított. A két cső egyszerre dördült lefelé a sötétbe — legalább a temetéssel már nem kellett senkinek bajlódnia.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood on wet mud beside a freshly dug grave, heavy dramatic shadows, film noir, rainy cemetery at night, gritty ink illustration. Two gunmen silhouetted above an open grave pit.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act3_chinatown_pawn",
+    "title": "A KÍNAI ZÁLOGOS TITKA",
+    "text": "A kínai negyed szűk sikátoraiban még az eső is nehezebbnek tűnt a főtt tészta és a nedves szén füstjétől. Az öreg Li zálogháza mögött résnyire nyitva állt a vöröses-fekete rács. Bent a pult mögött az öreg kulcsmásoló élettelenül dőlt hátra a székében; két apró, tiszta golyóütötte lyuk sötétlett a mellényén.\n\nA kirakatot összetörték, hogy rablásnak tűnjön, de én ismertem a szakmát: az igazi titkokat sosem a pulton tartják. A lábbal nyitható titkos fiók alján megtaláltam Li bőrkötésű munkanaplóját.\n\nAz utolsó oldalon két dátum állt egymás alatt, két héttel ezelőttről: ugyanarról a dupla rézzárról először egy ír rézvörös hajú, zöld ruhás nő rendelt másolatot, majd két nappal később Vance szenátor személyi titkára fizetett háromszoros árat egy másikért. Mindketten pontosan tudták, mi van a táskában — és mindketten átverték a Szindikátust is, meg engem is.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber counter lamp glow illuminating a handwritten ledger page, heavy dramatic shadows, film noir, 1940s Chinatown pawnshop at night, gritty ink illustration. Detective searching behind a shattered glass counter beside a slain locksmith.",
+    "evidenceUnlocked": ["pawnshop_ledger"],
+    "choices": [
+      {
+        "text": "Átkutatod a pult mögötti acélszekrényt is, hátha maradt ott viaszlenyomat a kulcsokról.",
+        "nextScene": "act3_pawn_backroom_safe"
+      },
+      {
+        "text": "Átmész a hátsó udvaron a selyemvarrodába, ahol a könyv szerint Maeve ruhája készült.",
+        "nextScene": "act3_chinatown_tailor"
+      },
+      {
+        "text": "A munkafüzettel a zsebedben a Vágóhídra indulsz, ahol Maeve és a banda útjai találkoznak.",
+        "nextScene": "act3_slaughterhouse_entry"
+      },
+      {
+        "text": "A régi csempész-vasútvonal alagútján át osonsz a Vágóhíd alatti sötét átjáróba.",
+        "nextScene": "act3_rail_tunnel"
+      }
+    ]
+  },
+  {
+    "id": "act3_pawn_backroom_safe",
+    "title": "A MÁSODIK KULCS LENYOMATA",
+    "text": "Li hátsó szobájában egy kis olajmécses égett a kőasztal felett. A fiók mélyén ott lapult három puha viaszöntvény és egy vékony rézbevonatú nyerskulcs, amelyre kézzel vésték rá: *„V.S. — BELSŐ ZÁR”*. Ez bizonyította minden kétséget kizáróan: Vance szenátor titkára másolatot készített a belső zárról, hogy még a Szindikátus előtt kinyithassa a táskát.\n\nA falon túl halk, sietős léptek csattantak a macskakövön — a város ezen részén a jó hírek nem futnak, de a vér szaga azonnal idecsalja a keselyűket.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber lamp glow on a brass key and wax mold, heavy dramatic shadows, film noir, Chinatown locksmith backroom, gritty ink illustration. Detective holding a duplicate brass key beside wax impression molds.",
+    "choices": [
+      {
+        "text": "Átugrod a hátsó udvar kerítését a szomszédos selyemvarroda felé.",
+        "nextScene": "act3_chinatown_tailor"
+      },
+      {
+        "text": "A kulccsal a zsebedben egyenesen a Vágóhídra hajtasz a végső elszámolásra.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act3_chinatown_tailor",
+    "title": "ZÖLD SELYEM A HÁTSÓ MŰHELYBEN",
+    "text": "A szűk kínai sikátorban egyetlen borostyánszínű papírlámpás lengett a szélben, megvilágítva a nyitott műhelyajtót. Bent, a sötét fa munkaasztalon még ott terült szét egy vég ragyogó smaragdzöld selyem — pontosan ugyanaz az anyag, amely Maeve O'Hara ruháján világított ebben a fekete-fehér pokolban.\n\nAz öreg szabó rémülten húzódott a sarokba, de egy kérdés elég volt, hogy elmondja: a vörös hajú hölgy három napja fizette ki kétszeres áron, hogy a ruha bal oldalába, a csípő alatti redőbe egy megerősített selyempisztolytáskát varrjon. Soha nem csak áldozatnak öltözött.\n\nA lépcső alján közben nehéz dohányfüst szivárgott fel: a régi ópiumpince felől suttogás hallatszott — Li unokaöccse még mindig odalent bujkált.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on a glowing amber paper lantern and a bolt of emerald green silk fabric on a dark wooden worktable, heavy dramatic shadows, film noir, rainy 1940s Chinatown narrow alley and hidden locksmith backroom, gritty ink art, no text.",
+    "evidenceUnlocked": ["emerald_dress_lining"],
+    "choices": [
+      {
+        "text": "Lemászol a hátsó ópiumpincébe, hogy kifaggasd Li unokaöccsét a gyilkosokról.",
+        "nextScene": "act3_opium_cellar"
+      },
+      {
+        "text": "Kilépsz a sikátorba a főutca felé, hogy mielőbb eljuss a Vágóhídra.",
+        "nextScene": "act3_chinatown_alley_ambush"
+      }
+    ]
+  },
+  {
+    "id": "act3_opium_cellar",
+    "title": "MÁKONYFÜST ÉS ÖRÖK HARAG",
+    "text": "A pince levegője nehéz volt a füsttől és az édeskés mákonygőztől. Li sebhelyes arcú unokaöccse egy vörös selyempárnán ült, ölében egy rövid csövű sörétessel, de nem emelte fel, amikor meglátta a kezemben Li munkanaplóját.\n\n— Nem a Szindikátus ölte meg az öreget — sziszegte keserűen. — Hanem Vance szenátor két elegáns öltönyös kutyája, akik tegnap a Városháza alagsorából hozták el az utolsó bírósági papírokat. A táska nélkül Vance megbukik a jövő heti választáson, ezért éjjel mindent eltakarítanak.\n\nA pince végében két rozsdás vasajtó állt: az egyik közvetlenül a csempészalagútba nyílt, a másik pedig egy régi teherliften át a belvárosi utcákra vitt fel a Városháza közelében.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber lantern light cutting through thick basement smoke, heavy dramatic shadows, film noir, 1940s Chinatown opium cellar, gritty ink illustration. Detective talking to a scarred informant holding a shotgun in dark smoke.",
+    "choices": [
+      {
+        "text": "A Városháza alagsori levéltárába mész, hogy megszerezd a Vance elleni bizonyítékokat.",
+        "nextScene": "act3_cityhall_entry"
+      },
+      {
+        "text": "Leereszkedsz a pince végében nyíló csempész-vasúti alagútba.",
+        "nextScene": "act3_rail_tunnel"
+      }
+    ]
+  },
+  {
+    "id": "act3_chinatown_alley_ambush",
+    "title": "VÖRÖS LÁMPÁSOK ALATT",
+    "text": "Amint kiléptem a sikátorba, a kínai papírlámpás alatt három szekrénynyi fekete kabátos alak zárta el az utca végét — Vinnie Moretti baltás és pisztolyos verőemberei. Az egyikük szájában fogpiszkáló reccsent, a másik már emelte is a kabát alól a nehéz Colt .45-öst.\n\nJobbra tőlem egy nyitott olajoshordó mellett lógott a leégett lámpás kanóca; fölöttem pedig a két bérház között kifeszített, vizes ruhaszárító drótok húzódtak a tetők magasságában. Másodperceim voltak, mielőtt szitává lőnek a macskakövön.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant splashes of crimson lantern light on wet cobblestones, heavy dramatic shadows, film noir, narrow 1940s Chinatown alley ambush, gritty ink illustration. Cornered detective facing three mobsters blocking the alley exit.",
+    "choices": [
+      {
+        "text": "Kiküldöd az olajoshordót két lövéssel, és a lángfal mögött a csatornaalagútba ugrasz.",
+        "nextScene": "act3_rail_tunnel"
+      },
+      {
+        "text": "Felugrasz a fal mellett futó létrára, és a kifeszített drótkötélen próbálsz átmászni.",
+        "nextScene": "act3_chinatown_dead_end"
+      }
+    ]
+  },
+  {
+    "id": "act3_chinatown_dead_end",
+    "title": "TÖRÖTT GERINC A MACSKAKÖVÖN",
+    "text": "A rozsdás drótkötél nem cirkuszi akrobatáknak készült egy esős novemberi éjszakán. Félúton a két téglafal között az egyik kampó kiszakadt a vakolatból, és mielőtt elengedhettem volna, a golyók már eltalálták a bal lábamat.\n\nA zuhanás rövid volt, a csattanás pedig végleges a nedves macskakövön. Mire az első fekete cipő megállt a fejem mellett, már csak az esőcseppek hidegét éreztem a nyitott szememen.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood on wet cobblestones, heavy dramatic shadows, film noir, 1940s alley at night, gritty ink illustration. Snapped laundry cable dangling above motionless silhouette on rain-slick stones.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act3_cityhall_entry",
+    "title": "A VÁROSHÁZA SÖTÉT OSZLOPAI",
+    "text": "A Városháza hatalmas gránitoszlopai úgy magasodtak fölém a szakadó esőben, mint egy elkorhadt birodalom sírkövei. Odabent már minden hivatalnok rég az igazak álmát aludta a meleg ágyában — csak az alagsori vészlámpák pislákoltak az acélajtók fölött.\n\nA portásfülke üvegén túl az éjszakai őr egy régi újságot olvasott, mellette nyitva hevert a kulcsszekrény. Ha el tudok jutni a B-14-es levéltári terembe anélkül, hogy megszólalna a csendes riasztó, végre kézzel fogható bizonyítékot találok arra, miért ér ennyi hullát az a fekete aktatáska.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of dim amber lobby lamp, heavy dramatic shadows, film noir, cavernous 1940s City Hall marble corridor at midnight, gritty ink illustration. Detective sneaking past stone pillars toward basement stairs.",
+    "choices": [
+      {
+        "text": "Odasétálsz az öreg portáshoz két ropogós ötvenessel, hogy nyugodtan aludjon tovább egy órát.",
+        "nextScene": "act3_cityhall_watchman_bribe"
+      },
+      {
+        "text": "Nesztelenül megkerülöd a fülkét, és feltöröd a levéltár lépcsőjének zárját.",
+        "nextScene": "act3_cityhall_archive"
+      }
+    ]
+  },
+  {
+    "id": "act3_cityhall_watchman_bribe",
+    "title": "SZÁZDOLLÁROS ÉS HALLGATÁS",
+    "text": "Az öreg őr egy pillanatra felnézett a szemüvege fölött, ránézett a pultjára csúsztatott két bankjegyre, aztán a .38-asomra, amely félig kilátszott a ballonkabát alól. Bölcs ember volt — negyven éve dolgozott ebben a városban.\n\n— A B-14-es szekrény lakatját három napja cserélték le, fiam — motyogta, és odadobott egy kis rézkulcsot az asztalra. — Callahan emberei vitték le az 1936-os dokksztrájk dossziéját, miután a szenátor azt hitte, senki nem emlékszik már rá. De vigyázz: ha az alsó ajtót kinyitod, van egy néma riasztódrót az iratszekrény mögött.\n\nLegalább már tudtam, mit keressek a sötétben.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber desk lamp glow over a brass key and folded bills, heavy dramatic shadows, film noir, 1940s City Hall security desk, gritty ink illustration. Old night watchman slipping a key across the counter to a detective.",
+    "choices": [
+      {
+        "text": "A kulccsal lemész a sötét alagsori irattárba.",
+        "nextScene": "act3_cityhall_archive"
+      }
+    ]
+  },
+  {
+    "id": "act3_cityhall_archive",
+    "title": "BÉLYEGZETT HALÁLÍTÉLETEK",
+    "text": "Az alagsori levéltárban végtelen, sötét acélszekrény-sorok meredtek egymásnak, mint a halottak utcái. Csak a zseblámpám meleg, borostyánsárga fénycsóvája vágott utat a szálló porban.\n\nA B-14-es fiók mélyén, egy rozsdás kapcsos mappában végre megtaláltam az 1936-os dokkmészárlás eredeti vizsgálati iratát. A lapok alján három aláírás állt egymás mellett: Vance akkor még csak helyettes államügyész volt, Callahan egy fiatal őrmester, Moretti pedig a végrehajtó. Mindhárom név összeért a szakszervezeti vezetők eltüntetésében — a fekete táskában lévő eredeti nyugták és fotók tíz évvel később is kötélre juttatnák mindhármukat.\n\nEbben a másodpercben azonban egy vékony rézhuzal pattant el a fiók hátulján, és a sarokban egy halvány vörös jelzőlámpa némán villogni kezdett.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with ONLY a single splash of warm amber flashlight beam cutting through pitch darkness, heavy dramatic shadows, film noir, cavernous 1940s City Hall basement archive, towering rows of steel filing cabinets, detective in fedora examining confidential dossier papers, no text.",
+    "evidenceUnlocked": ["archive_1936_coverup"],
+    "choices": [
+      {
+        "text": "Felkapod a mappát, és megpróbálsz kijutni a sötét folyosón, mielőtt a riasztóra ideérnek.",
+        "nextScene": "act3_archive_alarm"
+      },
+      {
+        "text": "A hátsó gépészeti kijáraton át azonnal eltűnsz a tehervasúti alagút felé, ahol Maeve várhat.",
+        "nextScene": "act3_switchhouse_shelter"
+      }
+    ]
+  },
+  {
+    "id": "act3_archive_alarm",
+    "title": "ACÉLAJTÓ ÉS RIASZTÓ",
+    "text": "Alig csuktam be magam mögött a fiókot, fentről már szaporodó bakancsdobogás és kiáltások szűrődtek le a lépcsőházból — Callahan egyik közeli járőre azonnal ráharapott a néma jelzésre.\n\nA helyiség végében egy szűk, vasrácsos szénledobó vezetett ki a tehervasút sötét alagútjába, de a lakatját még fel kellett volna törni az álkulccsal. A főbejáratnál közben már a kulcsot forgatták a zárban.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson alarm bulb glow in a pitch-dark basement, heavy dramatic shadows, film noir, 1940s City Hall vault, gritty ink illustration. Detective picking a rusted coal-chute padlock as police boots descend the stairs.",
+    "choices": [
+      {
+        "text": "Gyorsan lefeszíted a szénledobó lakatját, és lecsúszol a sötét vasúti alagútba.",
+        "nextScene": "act3_rail_tunnel"
+      },
+      {
+        "text": "Elrejtőzöl az acélpolcok mögött, hátha el tudsz bánni a belépő zsarukkal.",
+        "nextScene": "act3_cityhall_dead_end"
+      }
+    ]
+  },
+  {
+    "id": "act3_cityhall_dead_end",
+    "title": "BILINCS ÉS SÖTÉT PINCE",
+    "text": "Négy reflektorfény vágott be egyszerre a nyitott acélajtón — nem két hétköznapi éjszakai járőr volt, hanem Callahan saját osztaga, géppisztollyal a kézben. Mire a polc mellől előhúztam a .38-ast, már nem volt hová lőni a vakító fehér fényben.\n\nAz első sorozat szétzúzta a vállam melletti fémszekrényt, a második pedig lezárta a könyvelést. Ebben a pincében az 1936-os akták mellett végleg helye lett még egy dossziénak.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with violent crimson blood splatter against steel filing cabinets, heavy dramatic shadows, film noir, 1940s basement archive, gritty ink illustration. Squad of crooked cops firing into dark aisle of metal cabinets.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act3_rail_tunnel",
+    "title": "ROZSDÁS SÍNEK A FÖLD ALATT",
+    "text": "A harmincas évek óta lezárt tehervasúti alagútban csak az öngyújtóm apró, borostyánsárga lángja mutatott utat a bokáig érő esővízben. A falakon vastag korom és penész ült, a sínek közötti talpfák rothadtak a sötétben — pontosan úgy, mint ez az egész város odafent.\n\nFélúton egy elhagyott szervizkocsihoz értem. A Szindikátus emberei használhatták menekülőútnak: egy feltört töltényes láda mellett egy még meleg katonai rádióadó hevert. A recsegő hangszóróból Callahan kapitány és Moretti ideges vitája hallatszott át: *„Felejtsd el a Vágóhidat, a szenátor az Obszidián Hotel harmincadik emeletén várja a lezárást!”*\n\nA belváros felé vezető szakasz azonban beomlott és nyakig elöntötte a folyó vize. Két közeli kiút maradt felfelé: az elhagyott vasúti váltóház, ahol halvány fény pislákolt, vagy közvetlenül a Vágóhíd csapóajtaja.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber Zippo lighter glow, heavy dramatic shadows, film noir, flooded abandoned 1940s underground railway tunnel, gritty ink illustration. Detective crouching beside a crackling military radio and wooden ammo crate on rusted tracks.",
+    "choices": [
+      {
+        "text": "Előbb besurransz a vasúti váltóházba, ahol a halvány fény mellett egy ismerős sziluett mozog.",
+        "nextScene": "act3_switchhouse_shelter"
+      },
+      {
+        "text": "Magadhoz veszel egy marék friss töltényt, és a csapóajtón át felmész a Vágóhíd csarnokába.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act3_switchhouse_shelter",
+    "title": "ESŐVERTE VÁLTÓHÁZ MAEVE-VEL",
+    "text": "A rozoga, bádogtetős vasúti váltóházban egy kis vaskályha parazsa vöröslött. A sarokban, egy régi bőröndön ülve ott didergett Maeve O'Hara — az eső átáztatta a rézvörös fürtjeit, a smaragdzöld selyemruha szegélye pedig csupa sár és korom volt. Egyetlen cigarettát szívott; a rúzsa még a sötétben is úgy izzott, mint egy friss seb.\n\n— Tudtam, hogy ide talál vissza, Jack — suttogta, és átnyújtotta a parázs felett melegedő cigarettát. Egy percig egyikünk sem beszélt; odakint a vihar úgy verte a bádoglemezt, mint ezer apró ököl. — A Vágóhídon már várnak rám Moretti emberei. Ha felmegyünk oda, mindkét oldalon lesz hulla napkeltéig. De a táskát nélkülem maga sem tudja úgy lezárni, hogy élve maradjon.\n\nEgy pillanatra majdnem hittem neki. Aztán eszembe jutott, hány ember vére száradt már ezen az éjszakán erre a zöld selyemre.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair, emerald green dress, red lipstick, and warm amber stove embers, heavy dramatic shadows, film noir, dilapidated 1940s railway switchhouse in storm, gritty ink illustration. Detective and femme fatale sharing a brief cigarette shelter before the storm.",
+    "choices": [
+      {
+        "text": "Eloltod a cigarettát, és együtt indultok el a sínek mentén a Vágóhíd csarnokába.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act3_slaughterhouse_roof",
+    "title": "VÁGÓHÍDI TETŐABLAK",
+    "text": "A rozsdás vaslétra nyikorgása beleveszett a mennydörgésbe, ahogy felhúztam magam a Vágóhíd beszakadt tetőablakához. Alattam, az ötven láb mély csarnokban hatalmas acélkampók himbálóztak a huzatban.\n\nA felső szervizjárdán két Szindikátus-őr támaszkodott a korlátnak, egyikük cigarettával a szájában éppen lefelé mutatott, ahol Vance emberei a vitorlavászon zsákot pakolták le. Hangtalanul mögéjük léptem a vizes acélon: a revolver markolatával egyetlen tiszta ütéssel leterítettem az elöl állót, a társát pedig átdobtam a kátrányos ponyvák közé.\n\nOdakintről, a főcsarnok közepe felől halk, tűsarkú léptek és egy női hang hallatszott — Maeve is megérkezett.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber cigarette glow in high shadows, heavy dramatic shadows, film noir, 1940s industrial slaughterhouse roof beams, gritty ink illustration. Detective infiltrating from broken skylight rafters above a shadowy hall.",
+    "choices": [
+      {
+        "text": "Lemászol a belső vaslétrán a vágóhídi csarnok közepére, ahol Maeve vár.",
+        "nextScene": "act3_slaughterhouse_entry"
+      }
+    ]
+  },
+  {
+    "id": "act3_slaughterhouse_entry",
+    "title": "KAMPÓK ÉS SMARAGD",
+    "text": "A régi Vágóhíd csarnoka úgy kongott, mint egy elátkozott katedrális. A beszakadt tetőn át függönyként zúdult be a hideg novemberi eső, a rozsdás húskampók hosszú, fekete árnyékokat vetettek a nedves csempére. És a csarnok közepén, a sötétség kellős közepén ott állt ő.\n\nMaeve O'Hara. A világ továbbra is csak fekete tusból és fehér esőcsíkokból állt, kivéve a vállára tapadó vizes rézvörös fürtjeit, a smaragdzöld ruháját és a vérvörös száját. A lába előtt két Szindikátus-őr feküdt mozdulatlanul, bal kezében pedig ott lógott a láncos fekete aktatáska.\n\n— Tudtam, hogy idetalál, Jack — mondta halkan, de a hangja megremegett az eső zúgásában. A selyemruhája sarkát sár és vér szennyezte be, mégis úgy nézett ki, mint aki bármelyik pillanatban képes eladni a lelkedet. — Már csak húsz percünk van napkeltéig.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, striking red lipstick, and a faint amber beam, heavy dramatic shadows, film noir, abandoned 1940s brick warehouse and slaughterhouse interior, gritty ink illustration. Femme fatale standing beside a dark chained leather briefcase while rain pours through a broken roof.",
+    "evidenceUnlocked": ["maeve_double_agent"],
+    "choices": [
+      {
+        "text": "Előbb az árnyékos felső járda mögül figyeled ki néhány másodpercig, kivel beszél suttogva.",
+        "nextScene": "act3_slaughterhouse_eavesdrop"
+      },
+      {
+        "text": "Fegyverrel a kézben szembesíted mindazzal, amit megtudtál a kettős játszmájáról és a halott futárról.",
+        "nextScene": "act3_maeve_confrontation"
+      },
+      {
+        "text": "Félreteszed a vádakat, magadhoz veszed a táskát, és szövetséget kötsz vele a közös túlélésért.",
+        "nextScene": "act3_maeve_trust"
+      }
+    ]
+  },
+  {
+    "id": "act3_slaughterhouse_eavesdrop",
+    "title": "KAMPÓK FELETT A SÖTÉTBEN",
+    "text": "Visszahúzódtam a rozsdás húskampók árnyékába, és kivártam. Maeve előhúzott a zöld selyem alól egy apró, hordozható adóvevőt, és fojtott hangon beleszólt a recsegő mikrofonba.\n\n— Mondja meg a szenátornak, hogy nálam van mindkét kulcs, és tizenöt perc múlva az Obszidiánban leszek — suttogta, miközben idegesen körbepillantott a sötét csarnokban. — De ha Callahan emberei még egyszer rám lőnek, a bírósági papírok még napkelte előtt a City Ledger szerkesztőségének asztalán landolnak!\n\nTehát erről van szó: tízévnyi mocsok, bírói kenőpénzek és gyilkossági megbízások lapulnak abban a lezárt bőröndben — és Maeve az utolsó percig mindkét oldalt zsarolja vele. Most már mindent tudtam, mielőtt előléptem a fényre.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair, emerald green dress, and red lipstick below hanging iron meat hooks, heavy dramatic shadows, film noir, slaughterhouse shadows, gritty ink illustration. Detective eavesdropping from behind hanging steel hooks.",
+    "evidenceUnlocked": ["vance_blackmail_key"],
+    "choices": [
+      {
+        "text": "Előlépsz, és fegyverrel a kézben számon kéred rajta a kettős játékot.",
+        "nextScene": "act3_maeve_confrontation"
+      },
+      {
+        "text": "Elrejted a gyanakvásodat, és közös túlélési alkut ajánlasz neki az Obszidián Hotelig.",
+        "nextScene": "act3_maeve_trust"
+      }
+    ]
+  },
+  {
+    "id": "act3_maeve_confrontation",
+    "title": "SZEMBESÍTÉS A SÖTÉTBEN",
+    "text": "Nem tettem el a .38-ast, és egyetlen lépést sem tettem közelebb a táskához. Elsoroltam neki mindent: a folyóból kihúzott #409-es futárt, a zálogosnál rendelt két kulcsmásolatot és a 14-es mólónál meggyilkolt vámos kabátján talált zöld selymet. Maeve nem pislogott.\n\n— És mit várt egy olyan nőtől, aki tíz éve tartozik Vance szenátornak, Marlowe? — A nevetése száraz volt és keserű, mint a kihűlt kávé. — A futár az öcsém volt. Amikor Vance megölte őt a kulcsért, én elhoztam a táskát, hogy megvásároljam vele az életemet. Benne van az elmúlt évtized összes bírói kenőpénze, rendőrségi listája és gyilkossági parancsa. Ha a megfelelő asztalra tesszük, mindketten élve maradunk — ha viszont a város ránk talál, senki nem emlékszik majd a nevünkre.\n\nAbban a másodpercben fényszórók hasítottak át a vágóhíd ablakain, és géppisztolyok zárja csattant odakint.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, red lipstick, and piercing headlight beams cutting through dusty windows, heavy dramatic shadows, film noir, 1940s slaughterhouse interior, gritty ink illustration. Detective aiming snub-nosed revolver at the femme fatale holding the briefcase.",
+    "evidenceUnlocked": ["vance_blackmail_key"],
+    "choices": [
+      {
+        "text": "Fedezékbe rántod Maeve-et a betonpillér mögé, és együtt küzditek át magatokat a hátsó kijáraton.",
+        "nextScene": "act3_ambush_escape"
+      },
+      {
+        "text": "Felborítasz egy rozsdás olajhordót, és a sötét kazánház felé próbáljátok kivágni magatokat.",
+        "nextScene": "act3_freezer_truce"
+      },
+      {
+        "text": "Elveszed tőle a táskát, bezárod őt a nehéz hűtőkamrába, és egyedül indulsz el alkut kötni az Obszidián Hotelbe.",
+        "nextScene": "act3_betray_maeve"
+      }
+    ]
+  },
+  {
+    "id": "act3_maeve_trust",
+    "title": "TÖRÉKENY FEGYVERSZÜNET",
+    "text": "Leengedtem a revolvert. Ebben a városban amúgy sincs ártatlan ember — csak olyanok vannak, akiknek még nem derült ki a mocskuk. Maeve egy pillanatra lehunyta a szemét, majd átnyújtotta a másik rézkulcsot, miközben az ujjai jegesek maradtak a tenyeremben.\n\n— Ha átjutunk ezen az éjszakán, Jack — suttogta, és a rézvörös tincsei egy pillanatra a vállamhoz értek —, talán van még egy hajnali tehervonat a pályaudvaron, ami kivisz ebből a pöcegödörből. De Vance az Obszidián Hotel harmincadik emeletén vár minket, és a táskában lévő iratokért hajlandó fizetni.\n\nAlig mondta ki a szavakat, odakint fényszórók vakították el a nedves ablakokat. Callahan zsarui és Moretti verőemberei egyszerre értek a vágóhídhoz.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, red lipstick, and golden brass keys in their hands, heavy dramatic shadows, film noir, slaughterhouse shadows, gritty ink illustration. Brief fragile alliance between detective and femme fatale as police headlights flash outside.",
+    "evidenceUnlocked": ["vance_blackmail_key"],
+    "choices": [
+      {
+        "text": "Egymást fedezve kitörtök a hátsó vágóhídi rámpán a viharba.",
+        "nextScene": "act3_ambush_escape"
+      },
+      {
+        "text": "A nehéz vasajtón át a szomszédos kazánház felé veszed az irányt Maeve-vel.",
+        "nextScene": "act3_freezer_truce"
+      },
+      {
+        "text": "Felrohansz a felső acélgalériára, hogy feltartsd az üldözőket, amíg Maeve kimenekül a táskával.",
+        "nextScene": "act3_ambush_stand"
+      }
+    ]
+  },
+  {
+    "id": "act3_freezer_truce",
+    "title": "JEGES BÉKE A HŰTŐKAMRÁBAN",
+    "text": "A hátsó rakodóajtót géppisztolysorozat szabdalta szilánkokra, így csak egyetlen irány maradt: berántottam Maeve-et a vastag, parafaszigetelésű hűtőkamrán át a kazánház szűk folyosójára. A leheletünk azonnal fehér füstként szakadt ki a sötétben.\n\n— Ha most elválunk, mindkettőnket külön-külön szednek le — sziszegte, miközben tárat cserélt a gyöngyházmarkolatúban. A zöld selyem már csak egyetlen élő színfolt volt ebben a rozsdás vaslabirintusban. — Maradjon mögöttem, Marlowe, a kazánház kijárata egyenesen az alagsori parkolóhoz vezet!\n\nA nehéz acélajtó túloldaláról azonban már hallatszott a közeledő csizmák csikorgása — Moretti egyik alvezére személyesen jött befejezni a munkát.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on copper-red hair, emerald green dress, and red lipstick in frosty dark mist, heavy dramatic shadows, film noir, 1940s slaughterhouse freezer corridor, gritty ink illustration. Detective and femme fatale reloading weapons back-to-back.",
+    "choices": [
+      {
+        "text": "Kicsapod a kazánház vasajtaját, és közelharcba szállsz az érkezőkkel.",
+        "nextScene": "act3_boiler_fight"
+      }
+    ]
+  },
+  {
+    "id": "act3_boiler_fight",
+    "title": "GŐZ ÉS VÖRÖS ROZSDA",
+    "text": "A hatalmas szénkazán vörös parazsa csak vékony fénycsíkokat vetett a csupa olaj padlóra. Moretti két verőembere előlépett a kazán mögül — egyikük nehéz csavarkulccsal lendült felém, a másik a sötétbe emelte a pisztolyát.\n\nA csavarkulcs elsüvített a kalapom mellett; beletérdeltem a fickó gyomrába, majd a pisztolyos társa felé fordultam. A fejünk felett futó nyomásszelep gőzzel sziszegett — egy lövéssel szét lehetett verni, hogy elvakítsa őket, vagy megpróbálhattam közvetlenül mellkason lőni a fegyverest.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of glowing red boiler embers, heavy dramatic shadows, film noir, 1940s slaughterhouse boiler room, gritty ink illustration. Brutal close-quarters brawl beside roaring coal furnaces and hissing steam pipes.",
+    "choices": [
+      {
+        "text": "Előbb a nyomásszelepet lövöd szét, és a gőzfüggönyben elrántod Maeve-et a hátsó kijáraton.",
+        "nextScene": "act3_ambush_escape"
+      },
+      {
+        "text": "Félretolod a csavarkulcsos fickót, és közvetlenül rálősz a pisztolyosra a szűk csövek között.",
+        "nextScene": "act3_boiler_dead_end"
+      }
+    ]
+  },
+  {
+    "id": "act3_boiler_dead_end",
+    "title": "FORRÓ GŐZ ÉS ÓLOM",
+    "text": "Az én lövésem egy hajszállal eltévedt a sötét csövek között — a golyó szikrázva pattant le a kazán szegecselt vaslemezéről, majd egyenesen a felettem lévő főgőzvezetékbe csapódott. Forró, fehér felhő robbant az arcomba.\n\nA fájdalomtól elvakulva hátratántorodtam, miközben a fegyveres két nyugodt, biztos lövéssel befejezte a beszélgetést. A vörös parázs lassan kihunyt a szemeim előtt, csak a víz és a gőz sziszegése maradt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood and glowing furnace coals, heavy dramatic shadows, film noir, 1940s boiler room, gritty ink illustration. Steam eruption blinding detective in gunfight.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act3_ambush_stand",
+    "title": "OLCSÓ LOVAGIASSÁG",
+    "text": "A felső acéljárda úgy visszhangzott a csizmám alatt, mint egy harang. Kihajoltam a korláton, és tüzet nyitottam a lenti reflektorokra, hogy időt adjak Maeve-nek. Az egyik lámpa szilánkosra tört, egy alak felsikoltott a sötétben.\n\nAz utolsó pillanatban még lenéztem a hátsó kijárat felé. Maeve megállt az ajtóban — nem azért, hogy visszajöjjön értem, csak hogy lássa, elég jól lekötöttem-e a figyelmet. A smaragdzöld ruha eltűnt az esőben.\n\nEbben a városban a lovagiasság a leggyorsabb öngyilkosság. Három lefűrészelt csövű puska egyszerre fordult a felső galéria felé, és a rozsdás korlát vörös szikrák között szakadt le velem együtt a mélybe.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on distant emerald green dress at the exit and violent crimson gunfire flashes, heavy dramatic shadows, film noir, slaughterhouse catwalk, gritty ink illustration. Lone detective caught in deadly crossfire on high steel catwalk.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act3_betray_maeve",
+    "title": "EGYEDÜL A FARKASOK KÖZÖTT",
+    "text": "Nem bíztam benne — és ha egy nő ilyen szemekkel hazudik, az ember jobban teszi, ha bezárja az ajtót, mielőtt hátba szúrják. Kikaptam a kezéből a láncos aktatáskát, belöktem a régi, vastag acélajtós hűtőkamrába, és ráfordítottam a külső reteszt. Odabentről tompa dörömbölés és egy fojtott ír káromkodás hallatszott, aztán már csak az eső zaja.\n\nA csarnok hátsó ablakán át osontam ki, miközben az üldözők elől berontottak. Most már nálam volt a táska, és nem maradt senki, aki hátba támadhatna — de senki sem maradt, aki fedezne sem.\n\nA lopott rendőrkocsival elindultam a belváros felé, de a folyóparti sugárúton már villogtak a rendőri útzárak lámpái.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber yard light, heavy dramatic shadows, film noir, 1940s slaughterhouse exterior, gritty ink illustration. Detective walking alone into the pouring rain clutching the heavy black leather briefcase.",
+    "choices": [
+      {
+        "text": "Az északi függőhíd felé térsz ki, hogy teljes gázzal lerázd a nyomódba eredő járőrkocsikat.",
+        "nextScene": "act4_bridge_chase"
+      },
+      {
+        "text": "Mellékutcákon át egyenesen az Obszidián Hotel hátsó teherbejáratához hajtasz.",
+        "nextScene": "act4_hotel_approach"
+      }
+    ]
+  },
+  {
+    "id": "act3_ambush_escape",
+    "title": "LÁNGOLÓ PACKARD",
+    "text": "A hátsó rakodórámpán át robbantunk ki a viharba. Egy eltévedt golyó átütötte a vágóhíd mellett parkoló Packard benzintankját; másodpercekkel később sárga-narancs tűzfal csapott fel az éjszakába, egy percre elvágva az üldözőinket a füstben. Felrántottam egy út szélén álló öreg taxi ajtaját, betaszítottam Maeve-et, és tövig nyomtam a gázt.\n\nA visszapillantó tükörben láttam, ahogy a zöld selyemruha válla sötétre színeződik — egy golyó súrolta a karját a kitöréskor, de még egy pisszenést sem hallatott. Csak szorosan az ölében tartotta a két kulcsot, miközben én a táskát szorítottam a két térdem között.\n\nElőttünk a felhők közé döfve ott tornyosult az Obszidián Hotel fekete sziluettje, de a tükörben már két rendőrségi fényszóró üldözött minket.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on glowing amber car explosion flames and the woman's emerald green dress and copper-red hair, heavy dramatic shadows, film noir, rainy 1940s street, gritty ink illustration. Speeding 1940s taxi escaping a burning Packard sedan in pouring rain.",
+    "choices": [
+      {
+        "text": "Ráfordulsz a viharos acél függőhídra, hogy az üldözők elől a folyó túlpartja felől kerüld meg a blokádot.",
+        "nextScene": "act4_bridge_chase"
+      },
+      {
+        "text": "Kiteszed Maeve-et egy mellékutcánál, te pedig az Obszidián Hotel alagsori teherbejáratához hajtasz.",
+        "nextScene": "act4_hotel_approach"
+      }
+    ]
+  },
+  {
+    "id": "act4_bridge_chase",
+    "title": "VIHAR A FÜGGŐHÍDON",
+    "text": "Az öreg taxi motorja úgy üvöltött a függőhíd csúszós acélrácsán, mint egy haldokló fenevad. A hatalmas acélkábelek süvítettek az éjszakai szélben, az eső pedig fehér falat húzott a két borostyánsárga fényszórónk elé. Mögöttünk a két fekete rendőrautó vörös lámpái egyre közelebb úsztak a nedves aszfalton.\n\nKét lövés csattant a hátsó sárvédőn. Rántottam egyet a kormányon, a kocsi megcsúszott a síkos villamossíneken — egy másodpercre az egész város és a fekete folyó alattunk táncolt a szélvédő előtt.\n\nA híd közepén azonban valami még rosszabb várt ránk: három keresztbe állított járőrkocsi zárta el az utat.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with ONLY vibrant splashes of amber car headlights and crimson brake lights reflecting on wet asphalt, heavy dramatic shadows, film noir, storm-lashed 1940s steel suspension bridge at night, speeding black 1940s sedan in pouring rain, dramatic noir composition, no text.",
+    "choices": [
+      {
+        "text": "Padlógázzal száguldasz tovább a villogó útzár felé, és az utolsó pillanatban döntesz.",
+        "nextScene": "act4_bridge_barricade"
+      }
+    ]
+  },
+  {
+    "id": "act4_bridge_barricade",
+    "title": "VILLOGÓ KÉK ÉS SÁRGA",
+    "text": "A barikád deszkái és a fényszórók vörös-borostyán villogása elvakította a fél hidat. Callahan kapitány tisztjei már felemelt puskával álltak a kocsik mögött — nem igazoltatni akartak, hanem lezárni az ügyet egyszer s mindenkorra.\n\nÖtven méter. A fékpedál lágy volt, mint a sáros hó, a táska pedig égette az ujjaimat az ülésen. Vagy teljes erőmből áttöröm a vékony fa kordonokat a kocsik között, vagy kiugrom a hídpillér karbantartó létrájára, mielőtt összelőnek minket.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant splashes of crimson taillights and amber police headlights at a bridge blockade, heavy dramatic shadows, film noir, stormy 1940s suspension bridge, gritty ink illustration. Speeding sedan approaching armed police roadblock in pouring rain.",
+    "choices": [
+      {
+        "text": "Tövig nyomod a gázt, lehúzod a fejed, és áttöröd a keskeny rést a hotel felé!",
+        "nextScene": "act4_hotel_approach"
+      },
+      {
+        "text": "Félrerántod a kormányt a korlát mellé, felkapod a táskát, és leugrasz a pillér vaslétrájára.",
+        "nextScene": "act4_bridge_jump"
+      },
+      {
+        "text": "Fékre taposol, és feltartott kézzel kiszállsz, hátha még meg lehet egyezni Callahan embereivel.",
+        "nextScene": "act4_bridge_dead_end"
+      }
+    ]
+  },
+  {
+    "id": "act4_bridge_dead_end",
+    "title": "MEGJELÖLT CÉLPONT A HÍDON",
+    "text": "Aki ebben a városban felemeli a kezét egy korrupt rendőrosztag előtt, annak legfeljebb arra marad ideje, hogy megszámolja a torkolattüzeket. A fékek csikorgása még el sem halt, amikor a vörös lámpák mögül hat puska egyszerre nyitott tüzet a szélvédőre.\n\nA kocsi ajtaja féloldalasan kinyílt, én pedig kizuhantam a nedves aszfaltra. A híd felett süvítő szél hamarosan elvitte a füstöt is, az aktatáska pedig már úton volt a szenátor asztalára.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with violent crimson gunfire flashes and taillight reflections, heavy dramatic shadows, film noir, 1940s suspension bridge roadblock, gritty ink illustration. Bullet-shattered car windshield in rain.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act4_bridge_jump",
+    "title": "VASLÉTRA A PILLÉRBEN",
+    "text": "A rozoga taxi recsegve csapódott a szalagkorlátnak, de addigra már átvetettem magam a híd peremén a pillér vizes vaslétrájára. Mögöttem a kordonnál őrjöngő zsaruk üres kocsira lőttek két tucat golyót, mielőtt rájöttek volna, hol vagyok.\n\nÖtven fokkal lejjebb, közvetlenül a folyóparti teherpályaudvar sínjei mellett értem földet. A táska még mindig szorosan a hónom alatt volt, odébb pedig egy gőzölgő mozdony mellett két alak beszélgetett az éjszakai peron sárga lámpája alatt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of distant amber railway signal glow below, heavy dramatic shadows, film noir, steel bridge pier maintenance ladder in pouring rain, gritty ink illustration. Detective climbing down into foggy railyard below.",
+    "choices": [
+      {
+        "text": "Óvatosan bemész a közeli teherpályaudvar gőzfelhőjébe, hogy lásd, ki vár ott.",
+        "nextScene": "act4_train_depot"
+      },
+      {
+        "text": "A folyóparti sínek mentén egyenesen az Obszidián Hotel hátsó sikátorába sietsz.",
+        "nextScene": "act4_hotel_approach"
+      }
+    ]
+  },
+  {
+    "id": "act4_train_depot",
+    "title": "ÉJFÉLI TEHERPÁLYAUDVAR",
+    "text": "A hatalmas, kormos vasúti csarnok úgy kongott a viharban, mint egy üres gyomor. A 49-es számú fekete gőzmozdony már sziszegve fújta a gőzt az éjszakába, készen a hajnali indulásra. A távoli jelzőlámpa borostyánsárga fényében egy pillanatra megláttam Clara Shaw-t, a *City Ledger* egyetlen megvesztegethetetlen bűnügyi riporterét — egy táskás fényképezőgéppel figyelte a peront.\n\nMellette a padon egy félbetépett menetjegy hevert a hajnali 04:15-ös határvárosi gyorsra, Maeve O'Hara álnévvel kiállítva. Ha itt hagyom nála a másolatokat vagy megállapodok vele, végre lesz valaki odakint, akit nem tud elhallgattatni Callahan — még ha az életem ára is a szobában marad.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on a distant amber platform signal lamp and a lone woman's emerald green dress and copper-red hair walking into train steam, heavy dramatic shadows, film noir, cavernous 1940s nocturnal railway station in rain and steam, no text.",
+    "choices": [
+      {
+        "text": "Odassurransz Clara Shaw-hoz a gőzben, hogy átadd neki a bizonyítékok nyomát.",
+        "nextScene": "act4_depot_press_contact"
+      },
+      {
+        "text": "Elrakod a megtalált menetjegyet, és továbbindulsz az Obszidián Hotel felé.",
+        "nextScene": "act4_hotel_approach"
+      }
+    ]
+  },
+  {
+    "id": "act4_depot_press_contact",
+    "title": "A FÉKNYOM ÉS A RIPORTER",
+    "text": "Clara nem rezzent össze, amikor kiléptem mögötte a fehér gőzből — aki öt éve fotózza a Szindikátus hulláit a dokkoknál, az már nem ijed meg egy elázott detektívtől.\n\n— Szóval tényleg igaz a pletyka, Jack — mondta halkan, és átvett tőlem minden nevet és iktatószámot, amit az éjszaka összegyűjtöttem, majd a tenyerembe nyomta a titkos alagsori nyomdája címét és sajtóigazolványát. — Ha megszerzed a táska tartalmát vagy elhozd az iratokat hajnal előtt a nyomdába, holnap reggel az egész város ezen fog égni. De vigyázz: a harmincadik emeleten Vance már vár rád.\n\nLegalább már volt még egy kártya a zsebemben a penthouse-i parti előtt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber station signal light on a reporter's press card, heavy dramatic shadows, film noir, steamy 1940s train platform, gritty ink illustration. Detective meeting an investigative female journalist in trench coat amid train steam.",
+    "evidenceUnlocked": ["clara_press_card"],
+    "choices": [
+      {
+        "text": "Megigazítod a kalapod, és elindulsz az Obszidián Hotel sötét tornya felé.",
+        "nextScene": "act4_hotel_approach"
+      }
+    ]
+  },
+  {
+    "id": "act4_hotel_approach",
+    "title": "AZ OBSZIDIÁN HOTEL ÁRNYÉKA",
+    "text": "A harmincemeletes Art Deco torony úgy meredt bele a viharfelhőkbe, mint egy márványból faragott sírkő. A főbejárat előtti utcát Callahan kapitány járőrkocsijai zárták le — szirénák nélkül, néma villogás nélkül, csendben, mint egy kivégzőosztag. Vance szenátor biztosra akart menni ma éjjel.\n\nA szomszédos sikátoron át osontam be a személyzeti kapun. Odabent meleg volt és drága szivarfüst szaga terjengett, még a teherfolyosón is. A kezemben a nehéz fekete táska minden méterrel súlyosabbnak tűnt.\n\nA harmincadik emeletre három út vezetett fel: a nyikorgó vasketreces teherlift, a sötét vészlépcsőház, vagy a konyhai szagelszívó hatalmas, négyszögletes szellőzőaknája.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber hotel entrance light, heavy dramatic shadows, film noir, towering 1940s Art Deco skyscraper in pouring rain, gritty ink illustration. Lone detective looking up at the dark Obsidian Hotel facade guarded by police cruisers.",
+    "choices": [
+      {
+        "text": "A vasketreces teherlifttel mész fel a harmincadik emelet konyhájába.",
+        "nextScene": "act4_freight_elevator"
+      },
+      {
+        "text": "A csendes vészlépcsőházat választod, kibiztosított revolverrel a kezedben.",
+        "nextScene": "act4_stairwell_climb"
+      },
+      {
+        "text": "Felkapaszkodsz a széles szellőzőaknába, hogy a 29. emeleti biztonsági szobán át kerüld meg az őröket.",
+        "nextScene": "act4_hotel_vent_shaft"
+      }
+    ]
+  },
+  {
+    "id": "act4_hotel_vent_shaft",
+    "title": "SZELLŐZŐAKNA A HUSZONKILENCEDIKRE",
+    "text": "A konyhai zsírszaggal teli szellőzőakna olyan szűk volt, hogy minden méteren átkozni kezdtem a télikabátomat. A táskát magam előtt tolva kúsztam felfelé a fémrácsok között, alattam pedig emeletről emeletre halkultak a konyhai csörömpölések.\n\nA huszonkilencedik szinten egy nyitott szervizrács alatt tompa rádiórecsegés szűrődött fel: a hotel éjszakai biztonsági ügyelete épp kávét töltött, miközben a falon függő vaskulcsok között ott lógott a penthouse magánfolyosójának főkulcsa.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber light shining upward through vent louvers, heavy dramatic shadows, film noir, tight metal ventilation duct, gritty ink illustration. Detective crawling through narrow metallic vent shaft clutching briefcase.",
+    "choices": [
+      {
+        "text": "Leereszkedsz a 29. emeleti biztonsági szobába, hogy elvedd a mesterkulcsot és elvágd a vonalakat.",
+        "nextScene": "act4_hotel_security"
+      },
+      {
+        "text": "Továbbkúszol az utolsó szintig, és közvetlenül a penthouse márványelőtere mögött bújsz ki.",
+        "nextScene": "act4_penthouse_hall"
+      }
+    ]
+  },
+  {
+    "id": "act4_hotel_security",
+    "title": "BIZTONSÁGI SZOBA ÉS KAMERÁK",
+    "text": "A hotel biztonsági őre meg sem hallotta, amikor a mennyezeti rács halkan leemelkedett a feje fölött. Egyetlen gyors revolvermarkolat-ütéssel elküldtem pihenni a forgószékébe, és máris elnémítottam a pulton lévő belső telefonközpontot — ha lent lövés dördül, innen már senki nem hív erősítést.\n\nA pulton nyitva feküdt a penthouse titkos vendégkönyve: Vance szenátor, Callahan kapitány és Moretti két éve minden hónap tizenötödikén ugyanebben a tetőtéri lakosztályban osztották fel a város bevételét. Zsebre vágtam a kitépett lapot, és felmentem az utolsó emeletre.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber desk monitor glow, heavy dramatic shadows, film noir, 1940s hotel security room, gritty ink illustration. Detective ripping pages from a secret guest ledger beside knocked-out floor guard.",
+    "evidenceUnlocked": ["hotel_guest_registry"],
+    "choices": [
+      {
+        "text": "A szervizlépcsőn felmész a harmincadik emelet csillogó márványelőterébe.",
+        "nextScene": "act4_penthouse_hall"
+      }
+    ]
+  },
+  {
+    "id": "act4_freight_elevator",
+    "title": "ZÖRGŐ LÁNCOK A SÖTÉTBEN",
+    "text": "A vasketrec láncai lassan, fájdalmas nyikorgással húztak felfelé az aknában. A huszonhetedik emelet magasságában a lift hirtelen rántott egyet és megállt. A rács túloldalán, a szűk előtérben Callahan két civil ruhás embere állt cigarettával a szájában — éppen őrséget álltak az egyik folyosón.\n\nAz egyikük lassan odafordította a fejét, és a gyufaláng mellett megpillantotta a kalapom sziluettjét a drótrács mögött. A szájából kiesett a cigaretta, a keze pedig már indult is a kabátja alá. Nincs idő gondolkodni: két másodperc, és itt a vég.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber cigarette glow, heavy dramatic shadows, film noir, 1940s hotel freight elevator shaft, gritty ink illustration. Detective trapped behind iron lattice cage facing two shocked plainclothes cops drawing weapons.",
+    "choices": [
+      {
+        "text": "Kettőt lősz a rácson át, mielőtt felemelhetik a pisztolyukat, majd kirobbansz a tetőtéri folyosóra.",
+        "nextScene": "act4_penthouse_hall"
+      },
+      {
+        "text": "Feltéped a ketrec ajtaját, és nekik taszítod a nehéz ezüsttálcás szervizkocsit a konyha felé.",
+        "nextScene": "act4_kitchen_skirmish"
+      },
+      {
+        "text": "Visszarántod a rozsdás kart, hogy lefelé menekülj a lifttel a harc elől.",
+        "nextScene": "act4_elevator_trap"
+      }
+    ]
+  },
+  {
+    "id": "act4_kitchen_skirmish",
+    "title": "EZÜST TÁLCÁK ÉS PISZTOLYLÖVÉS",
+    "text": "A nehéz krómozott szervizkocsi úgy csapódott bele a két zsaru térdébe, mint egy kisiklott tehervagon. Kristálypoharak és pezsgősüvegek törtek ezer darabra a konyha csempéjén, elnyomva az első káromkodást.\n\nMielőtt feltápászkodtak volna a habzó italban és az üvegszilánkok között, a súlyos bőr aktatáska sarkával tarkón vágtam a közelebbit, a másikat pedig belöktem a hatalmas rézmosogató alá. A penthouse konyhájából már csak egyetlen lengőajtó választott el a harmincadik emelet csillárjaitól.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber kitchen bulb over shattered crystal glasses, heavy dramatic shadows, film noir, 1940s luxury hotel kitchen, gritty ink illustration. Detective fighting past overturned silver room-service cart.",
+    "choices": [
+      {
+        "text": "Átléped a szilánkokat, és belépsz a harmincadik emelet márványelőterébe.",
+        "nextScene": "act4_penthouse_hall"
+      }
+    ]
+  },
+  {
+    "id": "act4_elevator_trap",
+    "title": "SZORÍTÓ ACÉL",
+    "text": "A régi rézkar meg sem mozdult — valaki a huszonhetedikről lekapcsolta az áramot, amint megállt a fülke. Egy acélketrecben csapdába esni két gyorstüzelő zsaru előtt pontosan annyit ér, mint papírkabátban állni a jégesőben.\n\nAz első két lövés szétverte a lift lámpáját, a következő négy pedig végigszántotta a szűk fülkét. A táska kicsúszott az ernyedő ujjaimból, és az utolsó hang, amit hallottam, a távoli szirénák tompa búgása volt az utca mélyéről.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with violent crimson blood splatter against steel elevator cage bars, heavy dramatic shadows, film noir, 1940s hotel shaft, gritty ink illustration. Bullet-riddled freight elevator cage hanging in pitch darkness.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act4_stairwell_climb",
+    "title": "HARMINC EMELET GYALOG",
+    "text": "Harminc emeletnyi betonlépcső az éjszaka közepén — a tüdőm úgy égett a cigarettafüsttől és az esőtől, mintha üvegszilánkot lélegeznék be. A huszonkilencedik fordulónál megtorpantam: fentről tompa dulakodás és fojtott nyögés hallatszott. Vinnie Moretti emberei éppen Vance testőreivel végeztek, hogy ők tegyék rá először a kezüket a pénzre.\n\nA két oldal már egymást is felzabálta a sötétben. Két fegyveres a nyitott vészkijáratnál figyelt a folyosó felé — észrevétlenül elsiklottam a hátuk mögött a szomszédos szervizajtóhoz, amely közvetlenül a penthouse előterébe vezetett.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood on concrete stairs, heavy dramatic shadows, film noir, 1940s hotel fire stairwell, gritty ink illustration. Detective creeping past fallen mob guards toward the thirtieth-floor penthouse door.",
+    "choices": [
+      {
+        "text": "Belépsz a harmincadik emelet csillogó, vérfoltos márványelőterébe.",
+        "nextScene": "act4_penthouse_hall"
+      }
+    ]
+  },
+  {
+    "id": "act4_penthouse_hall",
+    "title": "VÉR A MÁRVÁNYON",
+    "text": "A harmincadik emelet előtere olyan fényűző volt, hogy egyetlen kristálycsillár árából öt évig fizethettem volna a negyedik emeleti irodám bérét — most viszont sűrű, vörös vértócsa terült szét a fehér márványpadlón. Vance egyik testőre holtan feküdt a díszoszlop tövében.\n\nA kétszárnyú mahagóni ajtó résnyire nyitva állt, mögüle halk, feszült hangok szűrődtek ki. Egy pillanatra elöntött a fáradtság: ez az egész cirkusz egyetlen éjszaka alatt hat hullát hagyott maga után, és a város reggel ugyanúgy felébred majd, mintha mi sem történt volna.\n\nKibiztosítottam a .38-asban maradt utolsó négy töltényt, felvettem a fekete bőr aktatáskát, és beléptem a fénybe.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on amber penthouse chandelier light and crimson blood pooling across white marble tiles, heavy dramatic shadows, film noir, 1940s Art Deco penthouse hall, gritty ink illustration. Detective in rain-soaked trench coat holding the briefcase before double mahogany doors.",
+    "choices": [
+      {
+        "text": "Belöktöd a szalon ajtaját, és szembenézel a város valódi uraival.",
+        "nextScene": "act4_penthouse_standoff"
+      }
+    ]
+  },
+  {
+    "id": "act4_penthouse_standoff",
+    "title": "HATALOM ÉS ROZSDÁS ÓLOM",
+    "text": "A hatalmas üvegablakokon túl villámok tépték szét a várost. A szalon közepén Vance szenátor ült a szivarfüstben — mellette Callahan kapitány állt rendőri egyenruhában, az ablaknál pedig Vinnie Moretti támaszkodott egy díszoszlopnak. Mindhárman ugyanabban a szobában, békében, mint három kövér keselyű, akik végül mindig megosztoznak a dögen.\n\n— Hozza ide a táskát, Marlowe — szólalt meg Vance olyan nyugalommal, mintha egy borítékot kérne a postástól. — A városnak nyugalomra van szüksége, magának pedig egy hosszú pihenésre. — Ebben a pillanatban a hátsó szervizajtó nyikorogva kinyílt: Maeve O'Hara lépett be rajta csupa vizesen, sebesült vállal, de smaragdzöld ruhája még most is úgy világított ebben a fekete-fehér pokolban, mint egy kihívás. A kezében egy gyöngyházmarkolatú pisztoly csillant.\n\nA szobában megfagyott a levegő. Most minden az én következő lépésemen múlt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on amber chandelier light, crimson blood on marble floor, and the femme fatale's copper-red hair and emerald green dress in the rear doorway, heavy dramatic shadows, film noir, 1940s luxury penthouse, gritty ink illustration. Standoff between detective with briefcase, corrupt senator, police captain, and mob boss.",
+    "evidenceUnlocked": ["senator_true_motive"],
+    "choices": [
+      {
+        "text": "Átadod a lezárt táskát Vance-nek és Callahannak a kialkudott pénzért és a szabad elvonulásért.",
+        "nextScene": "act5_dirty_deal"
+      },
+      {
+        "text": "Odadobod a kulcsot Maeve-nek, bízva benne, hogy együtt kijuttok a táskával a vészlépcsőn.",
+        "nextScene": "act5_emerald_betrayal"
+      },
+      {
+        "text": "Rálősz a kristálycsillár láncára, és a kitörő káoszban elmenekülsz a táskával a tetőterasz felé.",
+        "nextScene": "act5_chaos_burn"
+      },
+      {
+        "text": "Az asztalra dobod a táskát, felpattintod az egyik rézzárat, és követeled, hogy mondják meg az igazat.",
+        "nextScene": "act5_ask_too_much"
+      }
+    ]
+  },
+  {
+    "id": "act5_ask_too_much",
+    "title": "AZ UTOLSÓ KÉRDÉS",
+    "text": "Ebben a városban a kíváncsiság drágább, mint a gyémánt. Ahogy a hüvelykujjam lepattintotta az első rézzárat, és valami néma, keserű feszültség töltötte be a szobát, Callahan és Moretti egyszerre rántottak fegyvert — még az esküdt ellenségek is másodperc alatt egyetértenek abban, hogy aki belenéz ebbe a táskába, az nem élheti meg a hajnalt.\n\nVance még a szivarját sem vette ki a szájából. Két lövés dördült egyszerre, és a fehér márvány vörösre vált alattam, mielőtt megtudhattam volna, mit ér tíz évnyi rothadás egy bőröndbe zárva.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with violent crimson blood splatter and amber chandelier light, heavy dramatic shadows, film noir, 1940s luxury penthouse, gritty ink illustration. Detective shot down beside a half-unlatched leather briefcase as corrupt elites watch coldly.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act5_chaos_burn",
+    "title": "TŰZ A PENTHOUSE-BAN",
+    "text": "A .38-asom csöve felfelé lendült: az utolsó két golyó kettészakította a nehéz kristálycsillár láncát. Ötszáz kiló üveg és borostyánszínű lámpa zuhant a tárgyalóasztalra, a széttört olajmécsesek lángja pedig azonnal belekapott a nehéz bársonyfüggönyökbe.\n\nA füstben három irányból dördültek el vakon a lövések — Callahan megsebezte Morettit, Vance a páncélszekrény mögé vetődött, én pedig a hónom alá csapva a láncos aktatáskát kivetődtem a tetőterasz üvegajtaján át a szomszédos épület tűzlétrájára. Mögöttem Maeve egy pillanatra eltűnt a lángok árnyékában.\n\nKét órával később, a hajnali ködben már csak néhány lépésnyire voltam az éjszaka lezárásától — nálam volt a lezárt táska, és még utoljára dönthettem, kinek a kezébe kerüljön napkelte előtt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant amber flames engulfing a luxury penthouse, heavy dramatic shadows, film noir, 1940s rooftop in pouring rain, gritty ink illustration. Detective escaping across wet rooftops clutching the black briefcase while fire erupts behind him.",
+    "choices": [
+      {
+        "text": "Lánccal körbetekered a nehéz bőr aktatáskát, és belehajítod a fekete folyó mélyére.",
+        "nextScene": "act5_ending_river"
+      },
+      {
+        "text": "Elsietsz az éjszakai riporter, Clara Shaw alagsori nyomdájába, hogy az újságban robbanjon a bomba.",
+        "nextScene": "act5_press_leak_choice"
+      },
+      {
+        "text": "A táskával a 49-es számú hajnali vonat peronjára rohansz, hogy még egyszer szembenézz Maeve-vel.",
+        "nextScene": "act5_depot_finale"
+      },
+      {
+        "text": "Elviszed a táskát a bírói kapcsolattartóhoz, lezárod a megbízást, és megveszed a saját békédet.",
+        "nextScene": "act5_ending_system_wins"
+      }
+    ]
+  },
+  {
+    "id": "act5_press_leak_choice",
+    "title": "SAJTÓ NYILVÁNOSSÁG VAGY HALLGATÁS",
+    "text": "A *City Ledger* alagsori nyomdájában már zúgtak a hatalmas öntöttvas rotációs gépek, tinta- és forró ólomszag úszott a levegőben. Clara Shaw egy szál cigarettával a szájában állt a nyomdai próbalevonatok fölött, és amikor letettem az asztalára a táskát meg az összegyűjtött aktákat, a szeme felcsillant.\n\n— Ha ezt most beletördeljük a hajnali első kiadásba, Marlowe, egy órán belül az egész államügyészség telefonálni fog — suttogta, miközben a betűszedők már tépték fel a táskát. — De kint a főúton két fekete járőrautó már kétszer elgurult az ablak előtt. Valaki elárulta, hol vagyunk.\n\nVagy megvárjuk az alagsorban, míg lejönnek az első friss újságok a szalagról, vagy kivisszük a nyomólemezeket a hátsó udvaron át.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of amber printing press lamp glow, heavy dramatic shadows, film noir, 1940s underground newspaper print shop, gritty ink illustration. Detective and journalist examining freshly inked pages by roaring rotary press.",
+    "choices": [
+      {
+        "text": "A hátsó udvaron át kimentitek az első száz példányt, mielőtt a zsaruk betörik a főajtót.",
+        "nextScene": "act5_ending_press_ashes"
+      },
+      {
+        "text": "A nyomda ajtajában maradsz revolverrel a kézben, hogy időt adj Clarának a gépek újraindítására.",
+        "nextScene": "act5_press_raid"
+      }
+    ]
+  },
+  {
+    "id": "act5_press_raid",
+    "title": "ROTÁCIÓS GÉP ÉS GOLYÓZÁPOR",
+    "text": "A nehéz vaspántos ajtó egyetlen robbanással nyílt be — Callahan emberei gázálarc nélkül, puskákkal rontottak be a tintaillatú alagsorba. A nyomdagépek fülsiketítő dübörgése elnyelte az első három lövést.\n\nFedezékbe ugrottam a hatalmas papírtekercsek mögé, míg Clara felkapta a kész ólommatricákat a hátsó lépcső felé. Két töltényem maradt a .38-asban; előttem az acélpadlón egy sötét nyomdafesték-tócsa terült szét az érkező bakancsok előtt.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with violent crimson muzzle flashes among towering paper rolls, heavy dramatic shadows, film noir, 1940s print shop gunfight, gritty ink illustration. Detective taking cover behind giant newsprint spools during police raid.",
+    "choices": [
+      {
+        "text": "A két maradék golyóval kilövöd a főkapcsolót, és a sötétben elszöksz a hátsó teherlépcsőn.",
+        "nextScene": "act5_ending_press_ashes"
+      },
+      {
+        "text": "Előlépsz a papírtekercs mögül, hogy közelharcban állítsd meg az első zsarut.",
+        "nextScene": "act5_press_dead_end"
+      }
+    ]
+  },
+  {
+    "id": "act5_press_dead_end",
+    "title": "FEKETE NYOMDAFESTÉK",
+    "text": "Egy kétgolyós pisztollyal szembeszállni négy géppisztolyos zsaruval pontosan olyan ostobaság, amit csak regényhősök élnek túl. A papírtekercsek szilánkosra szakadtak mellettem, a mellkasomon pedig hideg tinta helyett meleg vörös patak folyt össze a padlón.\n\nA rotációs gép még mindig forgott felettem, amikor a szemem lecsukódott — a reggeli lapban már nem maradt hely a nevemnek.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of crimson blood mixing with black printing ink on concrete, heavy dramatic shadows, film noir, 1940s print shop floor, gritty ink illustration. Fallen detective beside shattered newsprint rolls.",
+    "endingType": "dead_end",
+    "choices": []
+  },
+  {
+    "id": "act5_depot_finale",
+    "title": "VÉGSŐ LESZÁMOLÁS A PERONON",
+    "text": "A 49-es gőzmozdony már megfújta az első éles füttyszót a hajnali esőben, amikor átrohantam a kormos pályaudvari csarnokon. És ott volt ő — Maeve O'Hara a vizes peron végén állt, gőzfelhőbe burkolózva, rézvörös haja már a hátára tapadt, smaragdzöld ruhája viszont úgy világított a szürke füstben, mint egy elátkozott smaragd.\n\nAmikor meglátta a kezemben a fekete táskát, megállt a hálókocsi lépcsőjén. A gyöngyházmarkolatú pisztoly már nem volt nála — csak fáradt, szomorú szemekkel nézett vissza rám a felszálló gőzön át.\n\n— Tényleg azt hitte, Jack, hogy itt bárki nyerhet? — kiáltotta túl a kerekek csikorgását. — Adja át a táskát, és szálljon fel velem, vagy hagyja itt mindkettőnket a városnak!",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on distant amber signal lamp and Maeve's emerald green dress and copper-red hair in swirling locomotive steam, heavy dramatic shadows, film noir, 1940s nocturnal railway station, gritty ink illustration. Final tense meeting on rain-swept train platform.",
+    "choices": [
+      {
+        "text": "Hagyod, hogy felszálljon a táska nélkül, te pedig egyedül maradsz az üres peronon a hajnalban.",
+        "nextScene": "act5_ending_border_rain"
+      },
+      {
+        "text": "Átnyújtod neki a kulcsot és a táskát, hogy végül ő távozzon a vonattal, te pedig visszasétálsz a sebeddel.",
+        "nextScene": "act5_ending_betrayed_office"
+      }
+    ]
+  },
+  {
+    "id": "act5_dirty_deal",
+    "title": "A PISZKOS ALKU",
+    "text": "Fáradt voltam már ahhoz, hogy megváltsam ezt a mocskos várost. Az asztalra tettem a kétzáras táskát. Vance nem is nézett a szemembe, csak egy vaskos, jelöletlen borítékot csúsztatott át a márványon, miközben Callahan emberei átvették a bőrtáskát és gyorsan kivitték a hátsó szobába.\n\nSenki nem lőtt. Az üzlet olyan tiszta volt, mint egy vágóhídi padló vízzel lemosva. Odakint a folyosón még egy pillanatra megálltam: a lépcsőfordulóban Maeve O'Hara állt a sötétben, zöld ruhája elszakadt a vállán, rézvörös haja csuromvizes volt. Nem szólt semmit, csak egy apró, szomorú bólintással eltűnt a hátsó liftnél — talán neki is jutott egy kiskapu a viharban.\n\nEgyedül maradtam a számlámmal és a város csendjével.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on amber chandelier light and the distant emerald green dress vanishing into a stairwell, heavy dramatic shadows, film noir, 1940s penthouse hallway, gritty ink illustration. Detective pocketing a thick cash envelope after handing over the briefcase.",
+    "choices": [
+      {
+        "text": "Zsebre vágod a pénzt, és visszasétálsz a városba a hajnali esőben.",
+        "nextScene": "act5_ending_system_wins"
+      }
+    ]
+  },
+  {
+    "id": "act5_emerald_betrayal",
+    "title": "SMARAGD ÁRULÁS",
+    "text": "Odadobtam a második kulcsot Maeve-nek — még mindig el akartam hinni, hogy van valami emberi a smaragdzöld selyem mögött. A nő elkapta a levegőben, egyetlen gyors mozdulattal rálőtt a mennyezeti lámpára, és a kitörő káoszban leterítette Callahan elöl álló testőrét. Felkaptam a táskát, hogy fedezzem őt az ajtóig.\n\nA lépcsőházi fordulóban értük el a vészkijáratot. Kinyújtottam a kezem, hogy átvegye a helyét mellettem, de ő megállt. A gyöngyházmarkolatú pisztolya nem az ajtó felé mutatott — hanem egyenesen a mellkasomra.\n\n— Ne haragudj, Jack — suttogta, és a vörös ajkán egyetlen hideg, szinte szánakozó mosoly jelent meg. — Csak egy ember fér el azon a hajnali vonaton. — Egy forró, éles ütés rántotta hátra a bal vállamat. A falhoz csapódtam, miközben Maeve O'Hara felkapta a táskát, és a rézvörös haja végleg eltűnt a lift sötétjében.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with vibrant color splashes ONLY on natural rusty Irish auburn copper-red hair, emerald green dress, red lipstick, and crimson blood on the detective's shoulder, heavy dramatic shadows, film noir, 1940s hotel stairwell, gritty ink illustration. Femme fatale shooting the detective in the shoulder and walking away with the briefcase.",
+    "choices": [
+      {
+        "text": "Összeszorított foggal elszorítod a sebedet, és a rendőrség kiérkezése előtt eltűnsz az utcán.",
+        "nextScene": "act5_ending_betrayed_office"
+      }
+    ]
+  },
+  {
+    "id": "act5_ending_river",
+    "title": "VÉGJÁTÉK: FÜST ÉS HAMU A VÍZ ALATT",
+    "text": "A rozsdás lánccal szorosan körbetekertem a fekete bőr aktatáskát, és egyetlen mozdulattal átdobtam a móló korlátján. A folyó olajos, fekete vize egyetlen tompa csobbanással nyelte el a város legnagyobb titkát — egy másodperc múlva már csak az eső verte tovább a hullámokat. Soha senki nem tudta meg, mi volt benne, és talán pontosan így maradt ép az eszem.\n\nA hajnal szürke csíkja nem hozott megváltást. Vance szenátor holnap új embereket küld majd, Callahan megmarad a székében, Maeve O'Hara pedig talán már átszállt egy keleti gyorsra új névvel és ugyanazzal a vörös rúzzsal.\n\nKét órával később ugyanabban a kopott székben ülök a negyedik emeleten. Kihúzom a fiókot, töltök két ujjnyi borostyánszínű bourbont, és nézem, ahogy a reluxa árnyékai ugyanúgy kettévágják a füstöt, mint tegnap. Elvégeztem a munkát, túléltem az éjszakát — de a város ugyanúgy rohad tovább.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of dim amber whiskey glass glow, heavy dramatic shadows, film noir, rainy 1940s city before dawn, gritty ink illustration. Lone exhausted private detective sitting completely alone at his cluttered wooden desk in a smoky dark office, rain streaking the Venetian blinds, empty hallway outside, nothing changed.",
+    "endingType": "ending",
+    "choices": []
+  },
+  {
+    "id": "act5_ending_betrayed_office",
+    "title": "VÉGJÁTÉK: A SMARAGD ÁRA",
+    "text": "Három nappal később, szoros fehér pólyával a bal vállamon ülök ugyanannál a mahagóni asztalnál. A kórházat messziről elkerültem, az újságok pedig egyetlen betűt sem írtak az Obszidián Hotel harmincadik emeletéről — a város olyan csendben nyelte el a hullákat, mint egy jól olajozott csapóajtó.\n\nAz üveghamutartó szélén még mindig ott hever egyetlen, vérvörös rúzzsal megfestett cigarettacsikk. Az asztal közepén egy névtelen boríték pihen: ötezer dollár ropogós bankjegyekben. Maeve O'Hara legalább annyira becsületes volt, hogy kifizette a fájdalomdíjat.\n\nKint megint rázendít a novemberi eső. Felhajtom az olcsó bourbon maradékát, és hátradőlök a dohányfüstös félhomályban. Az egész városban ő maradt az egyetlen tiszta szín, én pedig csak egy árnyék, aki egyedül maradt a negyedik emeleten.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of dim amber whiskey glass glow and a crimson lipstick stain on a cigarette butt, heavy dramatic shadows, film noir, rainy 1940s detective office, gritty ink illustration. Bandaged lone detective sitting alone at his desk staring at an empty doorway.",
+    "endingType": "ending",
+    "choices": []
+  },
+  {
+    "id": "act5_ending_system_wins",
+    "title": "VÉGJÁTÉK: A RENDSZER MINDIG GYŐZ",
+    "text": "Elértem, amiért fizettek — átadtam a táskát, a nevem lekerült a négyes körzet feketelistájáról, és túléltem egy olyan éjszakát, amelyet hat másik ember nem ért meg. Másnap este a rádióban Vance szenátor hangja dörög a rendőrségi megtisztulásról és a város fényes jövőjéről; Callahan kapitány új kitüntetést vesz át, a kikötőben pedig már egy újabb ismeretlen hullát húznak ki az iszapból.\n\nMaeve O'Hara eltűnt — néha esős éjjeleken még látom a rézvörös haját vagy egy smaragdzöld ruha villanását egy sarkon, de mire közelebb lépek, csak a szürke köd és az újságpapír marad a macskakövön.\n\nÉn pedig itt ülök egyedül a füstös negyedik emeleti irodámban. A hamutartó túlcsordul, a pohár alján két ujjnyi borostyánszínű bourbon csillan, a reluxa lécei pedig ugyanúgy vágják rácsba a sötétséget, mint tegnap. A munkát elvégeztem. A rendszer győzött. És ebben a városban minden rohad tovább.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of dim amber whiskey glass glow, heavy dramatic shadows, film noir, rainy 1940s city before dawn, gritty ink illustration. Lone exhausted private detective sitting completely alone at his cluttered wooden desk in a smoky dark office, rain streaking the Venetian blinds, empty hallway outside, nothing changed.",
+    "endingType": "ending",
+    "choices": []
+  },
+  {
+    "id": "act5_ending_press_ashes",
+    "title": "VÉGJÁTÉK: TINTA ÉS HAMU A SAJTÓBAN",
+    "text": "A *City Ledger* reggeli különkiadása úgy csapott le a városra, mint egy kézigránát a színházban — egyetlen hangos, koszos napra. Vance szenátor „egészségügyi okokra” hivatkozva még aznap este lemondott, és magángéppel repült el a nyugati partra; Callahan kapitányt áthelyezték a nyugdíjbizottság élére, Moretti pedig eltűnt egy vidéki birtokon.\n\nHárom héttel később azonban a négyes körzetben már egy új kapitány szedte be a védelmi pénzt a Bársony Pince kidobójától, a városházán egy új szenátor tartott beszédet a tisztességről, a kikötőben pedig ugyanúgy úsztak a gázolajfoltok.\n\nÉn pedig itt ülök egyedül a negyedik emeleten, a kopott íróasztal mögött. Az újságot már régen elvitte a szél az ablak alól, a pohárban két ujjnyi borostyánszínű bourbon csillan — ebben a városban az igazság is csak tegnapi hír.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with a single splash of dim amber whiskey glass glow, heavy dramatic shadows, film noir, rainy 1940s detective office at dusk, gritty ink illustration. Lone detective sitting behind his cluttered desk beside a discarded newspaper.",
+    "endingType": "ending",
+    "choices": []
+  },
+  {
+    "id": "act5_ending_border_rain",
+    "title": "VÉGJÁTÉK: VÖRÖS ESŐ A PÁLYAUDVARON",
+    "text": "A 49-es mozdony kerekének csikorgása lassan beleveszett a hajnali ködbe. Maeve O'Hara a vagon peronjáról nézett vissza még egyetlen másodpercig — a szürke gőzben az a néhány rézvörös tincs és a smaragdzöld selyem lassan elhalványult, míg végül csak a vörös jelzőlámpa maradt a sötét sínek végén. Az üres, feltört aktatáskát a peron szélén hagytam: az iratokat már senki nem kérte számon, aki pedig mégis kereste őket, holnap új nevet talál a bérlistán.\n\nGyalog sétáltam vissza a negyedik emeletre a szürkülő novemberi esőben. Senki nem várt az irodában, a telefon néma maradt, és a hamutartóban ugyanúgy hevertek a régi csikkek.\n\nKinyitottam a fiókot, töltöttem egy kis bourbont, és leültem a reluxa árnyékába. A feladatot elvégeztem, életben maradtam — de a város ugyanúgy rohad tovább, nélküle.",
+    "imagePrompt": "Sin City graphic novel style, extreme high contrast black and white with ONLY a distant splash of amber platform light and fading emerald green silhouette in train steam, heavy dramatic shadows, film noir, 1940s dawn train station, gritty ink illustration. Lone detective watching tail-lamps vanish into rain and fog.",
+    "endingType": "ending",
+    "choices": []
+  }
+]
