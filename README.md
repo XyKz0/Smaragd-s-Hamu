@@ -25,6 +25,7 @@ Interaktív, 1940-es évekbeli klasszikus noir detektívregény (gamebook) React
 - **Build rendszer:** Vite 8
 - **Stílus:** Tailwind CSS v4
 - **Ikonok:** Lucide React
+- **Fejlesztés (Vibe coding):** Google AI Studio / Gemini segítségével készült (kódolás, történetépítés és a 100 egyedi jelenetkép generálása)
 
 ---
 
